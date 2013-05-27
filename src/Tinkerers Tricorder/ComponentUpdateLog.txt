@@ -1,0 +1,38 @@
+Last Modified Date & Time: 05/27/2013 00:14:27
+
+Project : DelSig_Mod_v2
+		Schematic : ADC_DelSig_Mod_v2_20/ADC_DelSig_Mod_v2_20.cysch
+
+		Bypass_P32	v 1.80	v 1.90
+		Bypass_P03	v 1.80	v 1.90
+
+		Schematic : KEES_ADC_DelSig_Mod_v2_30/PSoC3/KEES_ADC_DelSig_Mod_v2_30.cysch
+
+		theACLK	v 1.70	v 2.0
+		Ext_CP_Clk	v 1.70	v 2.0
+		IRQ	v 1.60	v 1.70
+		Bypass_P03	v 1.70	v 1.90
+		Bypass_P32	v 1.70	v 1.90
+		DSM2	v 2.0	v 4.0
+		AMux	v 1.60	v 1.70
+
+		Schematic : KEES_ADC_DelSig_Mod_v2_30/PSoC5/KEES_ADC_DelSig_Mod_v2_30.cysch
+
+		theACLK	v 1.70	v 2.0
+		Ext_CP_Clk	v 1.70	v 2.0
+		IRQ	v 1.60	v 1.70
+		Bypass_P03	v 1.70	v 1.90
+		Bypass_P32	v 1.70	v 1.90
+		DSM2	v 2.0	v 4.0
+		AMux	v 1.60	v 1.70
+
+
+Last Modified Date & Time: 05/27/2013 16:54:00
+
+Project : Tricorder Components
+		Schematic : PCD8544_LCD/PCD8544_LCD.cysch
+
+		LCD_SPI	v 2.30	v 2.40
+		LCD_DMA	v 1.60	v 1.70
+
+

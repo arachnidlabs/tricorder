@@ -1,3 +1,6 @@
 *.b#?
 *.s#?
 *.gpi
+CortexM3
+codegentemp
+generated_source
