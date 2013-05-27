@@ -1,0 +1,3 @@
+[submodule "src/freebooter"]
+	path = src/freebooter
+	url = git@github.com:arachnidlabs/freebooter.git
