@@ -6,17 +6,16 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Tinkerers Tricorder\Bootloader">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD">
 <ExpandedNodeIds>
 <v>Tinkerers Tricorder</v>
-<v>Tinkerers Tricorder\Bootloader</v>
 <v>Tinkerers Tricorder\Bootloader\TopDesign.cysch</v>
 <v>Tinkerers Tricorder\Bootloader\Bootloader.cydwr</v>
 <v>Tinkerers Tricorder\Bootloader\Header Files</v>
@@ -25,21 +24,6 @@
 <v>Tinkerers Tricorder\Bootloader\Source Files\main.c</v>
 <v>Tinkerers Tricorder\Bootloader\Generated_Source</v>
 <v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1_INT.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1_PM.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass_aliases.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ\ADC_SAR_1_IRQ.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ\ADC_SAR_1_IRQ.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK\ADC_SAR_1_theACLK.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK\ADC_SAR_1_theACLK.h</v>
 <v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1</v>
 <v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1\BoostConv_1.c</v>
 <v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1\BoostConv_1.h</v>
@@ -121,31 +105,19 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Header Files\device.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Source Files</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Source Files\main.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC\ADC.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC\ADC.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC\ADC_INT.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC\ADC_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Bypass_P32</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Bypass_P32\ADC_Bypass_P32.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Bypass_P32\ADC_Bypass_P32.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Bypass_P32\ADC_Bypass_P32_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Clock_Ext</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Clock_Ext\ADC_Clock_Ext.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Clock_Ext\ADC_Clock_Ext.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Ext_CP_Clk</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Ext_CP_Clk\ADC_Ext_CP_Clk.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ADC_Ext_CP_Clk\ADC_Ext_CP_Clk.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Freq</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Freq\Button_Freq.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Freq\Button_Freq.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Freq\Button_Freq_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Mode</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Mode\Button_Mode.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Mode\Button_Mode.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Button_Mode\Button_Mode_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Clipping_Sense</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Clipping_Sense\Clipping_Sense.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Clipping_Sense\Clipping_Sense.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Clipping_Sense\Clipping_Sense_PM.c</v>
@@ -171,98 +143,109 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Divider</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Divider\Divider.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Divider\Divider.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Divider\Divider_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive\Drive.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive\Drive.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive\Drive_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_freq_range</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_freq_range\drive_freq_range.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_freq_range\drive_freq_range.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_freq_range\drive_freq_range_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_In</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_In\Drive_In.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_In\Drive_In.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_In\Drive_In_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out_P01</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out_P01\Drive_Out_P01.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out_P01\Drive_Out_P01.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out_P01\Drive_Out_P01_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_range</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out\Drive_Out.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out\Drive_Out.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out\Drive_Out_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_range\drive_range.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_range\drive_range.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_range\drive_range_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Sense</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Sense\Drive_Sense.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Sense\Drive_Sense.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Sense\Drive_Sense_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\IDrive</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\IDrive\IDrive.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\IDrive\IDrive.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\IDrive\IDrive_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\InPhase_Clock</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\InPhase_Clock\InPhase_Clock.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\InPhase_Clock\InPhase_Clock.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\InPhase_Clock\InPhase_Clock_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_CustChars.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCDPort</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCDPort\LCD_LCDPort_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LED_Clipping</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LED_Clipping\LED_Clipping.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LED_Clipping\LED_Clipping.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LED_Clipping\LED_Clipping_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Measure_Mux</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_glcdfont.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_glcdfont.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_LCD.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_LCD.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_CS\LCD_CS.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_CS\LCD_CS.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_CS\LCD_CS_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_d_c\lcd_d_c.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_d_c\lcd_d_c.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_d_c\lcd_d_c_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_Control\LCD_LCD_Control.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_Control\LCD_LCD_Control.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI\LCD_LCD_SPI.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI\LCD_LCD_SPI.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI\LCD_LCD_SPI_INT.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI\LCD_LCD_SPI_PM.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI\LCD_LCD_SPI_PVT.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI_IntClock\LCD_LCD_SPI_IntClock.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI_IntClock\LCD_LCD_SPI_IntClock.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_mosi\lcd_mosi.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_mosi\lcd_mosi.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_mosi\lcd_mosi_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_RST\LCD_RST.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_RST\LCD_RST.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_RST\LCD_RST_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_sclk\lcd_sclk.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_sclk\lcd_sclk.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_sclk\lcd_sclk_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Measure_Mux\Measure_Mux.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Measure_Mux\Measure_Mux.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Phase</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Phase\Phase.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Phase\Phase.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Quadrature_Clock</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Quadrature_Clock\Quadrature_Clock.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Quadrature_Clock\Quadrature_Clock.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Quadrature_Clock\Quadrature_Clock_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Sine_DMA</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1\ResistiveTouch_1.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1\ResistiveTouch_1.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1\ResistiveTouch_1_PM.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR\ResistiveTouch_1_ADC_SAR.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR\ResistiveTouch_1_ADC_SAR.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR\ResistiveTouch_1_ADC_SAR_INT.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR\ResistiveTouch_1_ADC_SAR_PM.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR_IRQ\ResistiveTouch_1_ADC_SAR_IRQ.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR_IRQ\ResistiveTouch_1_ADC_SAR_IRQ.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR_theACLK\ResistiveTouch_1_ADC_SAR_theACLK.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ADC_SAR_theACLK\ResistiveTouch_1_ADC_SAR_theACLK.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_AMux\ResistiveTouch_1_AMux.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_AMux\ResistiveTouch_1_AMux.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xm\ResistiveTouch_1_xm.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xm\ResistiveTouch_1_xm.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xm\ResistiveTouch_1_xm_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xp\ResistiveTouch_1_xp.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xp\ResistiveTouch_1_xp.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_xp\ResistiveTouch_1_xp_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ym\ResistiveTouch_1_ym.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ym\ResistiveTouch_1_ym.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_ym\ResistiveTouch_1_ym_aliases.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_yp\ResistiveTouch_1_yp.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_yp\ResistiveTouch_1_yp.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\ResistiveTouch_1_yp\ResistiveTouch_1_yp_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Sine_DMA\Sine_DMA_dma.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Sine_DMA\Sine_DMA_dma.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\SOC_Go</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\SOC_Go\SOC_Go.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\SOC_Go\SOC_Go.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Status_Reg</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Status_Reg\Status_Reg.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Status_Reg\Status_Reg.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA\TIA.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA\TIA.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA\TIA_PM.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input_P05</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input_P05\TIA_Input_P05.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input_P05\TIA_Input_P05.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input_P05\TIA_Input_P05_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Output</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input\TIA_Input.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input\TIA_Input.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Input\TIA_Input_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Output\TIA_Output.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Output\TIA_Output.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Output\TIA_Output_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\tia_range</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\tia_range\tia_range.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\tia_range\tia_range.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\tia_range\tia_range_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Sense</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Sense\TIA_Sense.c</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Sense\TIA_Sense.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\TIA_Sense\TIA_Sense_aliases.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Trigger</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Trigger\Trigger.c</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Trigger\Trigger.h</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Trigger\Trigger_aliases.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cydevice.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cydevice_trm.h</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cydevicegnu.inc</v>
@@ -280,44 +263,44 @@
 <v>Tinkerers Tricorder\Tricorder Components\Source Files</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>Tinkerers Tricorder</v>
-<v>Tinkerers Tricorder\Bootloader</v>
-<v>Tinkerers Tricorder\Bootloader\TopDesign.cysch</v>
-<v>Tinkerers Tricorder\Bootloader\Bootloader.cydwr</v>
-<v>Tinkerers Tricorder\Bootloader\Header Files</v>
-<v>Tinkerers Tricorder\Bootloader\Header Files\device.h</v>
-<v>Tinkerers Tricorder\Bootloader\Source Files</v>
-<v>Tinkerers Tricorder\Bootloader\Source Files\main.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1_INT.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1\ADC_SAR_1_PM.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_Bypass\ADC_SAR_1_Bypass_aliases.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ\ADC_SAR_1_IRQ.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_IRQ\ADC_SAR_1_IRQ.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK\ADC_SAR_1_theACLK.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\ADC_SAR_1_theACLK\ADC_SAR_1_theACLK.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1\BoostConv_1.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\BoostConv_1\BoostConv_1.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\core_cm3.c</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
-<v>Tinkerers Tricorder\Bootloader\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Divider</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_freq_range</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_In</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Out</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\drive_range</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Drive_Sense</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\IDrive</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_glcdfont.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_glcdfont.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_LCD.c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD\LCD_LCD.h</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_CS</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_d_c</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_Control</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_LCD_SPI_IntClock</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_mosi</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\LCD_RST</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\lcd_sclk</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Measure_Mux</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\Generated_Source\PSoC5\Phase</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Tinkerers Tricorder">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\glcdfont.c">
 <ExpandedNodeIds>
 <v>Tinkerers Tricorder</v>
 <v>Tinkerers Tricorder\Bootloader</v>
@@ -368,7 +351,6 @@
 <v>Tinkerers Tricorder\DelSig_Mod_v2\KEES_ADC_DelSig_Mod_v2_30\KEES_ADC_DelSig_Mod_v2_30.cystate</v>
 <v>Tinkerers Tricorder\DelSig_Mod_v2\KEES_ADC_DelSig_Mod_v2_30\KEES_ADC_DelSig_Mod_v2_30.cysym</v>
 <v>Tinkerers Tricorder\DelSig_Mod_v2\KEES_ADC_DelSig_Mod_v2_30\KEES_ADC_DelSig_Mod_v2_30.pdf</v>
-<v>Tinkerers Tricorder\Freebooter</v>
 <v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0</v>
 <v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom</v>
 <v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\Properties</v>
@@ -390,13 +372,15 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TopDesign</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TopDesign\TopDesign.cysch</v>
 <v>Tinkerers Tricorder\Tricorder Components</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API\LCD.c</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API\LCD.h</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PCD8544_LCD.cysch</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PCD8544_LCD.cysym</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\glcdfont.c</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\glcdfont.h</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\LCD.c</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\LCD.h</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\ST_7565R.cysch</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\ST_7565R.cysym</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Tinkerers Tricorder</v>
@@ -405,34 +389,19 @@
 <v>Tinkerers Tricorder\Bootloader\TopDesign\TopDesign.cysch</v>
 <v>Tinkerers Tricorder\DelSig_Mod_v2</v>
 <v>Tinkerers Tricorder\Freebooter</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\Properties</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\Properties\Resources.Designer.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\Properties\Resources.resx</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cycustomizer.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cygeneralpage.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cygeneralpage.Designer.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cygeneralpage.resx</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cyparameters.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Custom\cywrappercontrol.cs</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\PSoC5</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\PSoC5\API</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\PSoC5\API\Freebooter.c</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\PSoC5\API\Freebooter.h</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Freebooter_v1_0.cystate</v>
-<v>Tinkerers Tricorder\Freebooter\Freebooter_v1_0\Freebooter_v1_0.cysym</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TopDesign</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TopDesign\TopDesign.cysch</v>
 <v>Tinkerers Tricorder\Tricorder Components</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API\LCD.c</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PSoC5\API\LCD.h</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PCD8544_LCD.cysch</v>
-<v>Tinkerers Tricorder\Tricorder Components\PCD8544_LCD\PCD8544_LCD.cysym</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\glcdfont.c</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\glcdfont.h</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\LCD.c</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\PSoC5\API\LCD.h</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\ST_7565R.cysch</v>
+<v>Tinkerers Tricorder\Tricorder Components\ST_7565R\ST_7565R.cysym</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -443,12 +412,6 @@
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_Bypass.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_INT.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_IRQ.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_PM.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_theACLK.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\BoostConv_1.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\Cm3Start.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\core_cm3.lst</v>
@@ -503,8 +466,6 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_INT.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_PM.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Button_Freq.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Button_Mode.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Clipping_Sense.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Clipping_Sense_PM.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Cm3Start.lst</v>
@@ -522,32 +483,48 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\drive_freq_range.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive_In.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive_Out_P01.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive_Out.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive_PM.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\drive_range.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Drive_Sense.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\IDrive.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\IDrive_PM.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\InPhase_Clock.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_CustChars.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCDPort.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_PM.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LED_Clipping.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_CS.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\lcd_d_c.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_glcdfont.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD_Control.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD_SPI.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD_SPI_INT.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD_SPI_IntClock.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_LCD_SPI_PM.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\lcd_mosi.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\LCD_RST.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\lcd_sclk.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\main.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Measure_Mux.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Phase.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Quadrature_Clock.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ADC_SAR.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ADC_SAR_INT.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ADC_SAR_IRQ.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ADC_SAR_PM.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ADC_SAR_theACLK.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_AMux.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_PM.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_xm.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_xp.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_ym.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\ResistiveTouch_1_yp.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Sine_DMA_dma.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\SOC_Go.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Status_Reg.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA_Input_P05.lst</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA_Input.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA_Output.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA_PM.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\tia_range.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\TIA_Sense.lst</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Listing Files\Trigger.lst</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Tinkerers Tricorder.elf</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Tinkerers Tricorder.hex</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\CortexM3\ARM_GCC_441\Debug\Tinkerers Tricorder.map</v>
@@ -568,12 +545,6 @@
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_Bypass.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_INT.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_IRQ.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_PM.lst</v>
-<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\ADC_SAR_1_theACLK.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\BoostConv_1.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\Cm3Start.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\core_cm3.lst</v>
@@ -597,6 +568,12 @@
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_Dp.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_drv.lst</v>
 <v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_episr.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_hid.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_midi.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_pm.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_std.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_1_vnd.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Bootloader.elf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -619,9 +596,9 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\System Reference Guide v3_40</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\AMux_v1_70</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Capacitor_v1_0</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CharLCD_v1_80</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Comp_v2_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_clock_v2_0</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\cy_constant_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_dma_v1_70</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_pins_v1_80</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_pins_v1_90</v>
@@ -637,6 +614,7 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\OpAmp_v1_90</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\PWM_v2_30</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Relay_v1_0</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\ResistiveTouch_v1_20</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Resistor_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TestPoint_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\ZeroTerminal</v>
@@ -655,9 +633,9 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\System Reference Guide v3_40</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\AMux_v1_70</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Capacitor_v1_0</v>
-<v>Tinkerers Tricorder\Tinkerers Tricorder\CharLCD_v1_80</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Comp_v2_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_clock_v2_0</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\cy_constant_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_dma_v1_70</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_pins_v1_80</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\cy_pins_v1_90</v>
@@ -673,6 +651,7 @@
 <v>Tinkerers Tricorder\Tinkerers Tricorder\OpAmp_v1_90</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\PWM_v2_30</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Relay_v1_0</v>
+<v>Tinkerers Tricorder\Tinkerers Tricorder\ResistiveTouch_v1_20</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\Resistor_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\TestPoint_v1_0</v>
 <v>Tinkerers Tricorder\Tinkerers Tricorder\ZeroTerminal</v>
@@ -711,7 +690,14 @@
 <name v=".\Tinkerers Tricorder.cydsn\main.c" />
 <name v=".\Tinkerers Tricorder.cydsn\Tinkerers Tricorder.cydwr" />
 <name v=".\Bootloader.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Bootloader.cydsn\Bootloader.cydwr" />
+<name v="Z:\Google Drive\projects\tricorder\src\Tinkerers Tricorder\Tricorder Components.cylib\ST_7565R\PSoC5\API\LCD.h" />
+<name v="Z:\Google Drive\projects\tricorder\src\Tinkerers Tricorder\Tricorder Components.cylib\ST_7565R\ST_7565R.cysch" />
+<name v="Z:\Google Drive\projects\tricorder\src\Tinkerers Tricorder\Tricorder Components.cylib\ST_7565R\PSoC5\API\LCD.c" />
+<name v="Z:\Google Drive\projects\tricorder\src\Tinkerers Tricorder\Tricorder Components.cylib\ST_7565R\ST_7565R.cysym" />
+<name v=".\Tinkerers Tricorder.cydsn\device.h" />
+<name v=".\Tinkerers Tricorder.cydsn\Generated_Source\PSoC5\LCD_LCD.h" />
+<name v=".\Tinkerers Tricorder.cydsn\Generated_Source\PSoC5\project.h" />
+<name v=".\Tinkerers Tricorder.cydsn\Generated_Source\PSoC5\LCD_LCD.c" />
 </OpenDocs>
 <config v="" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

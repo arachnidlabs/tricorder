@@ -13,11 +13,6 @@
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
 <file name=".\CortexM3\ARM_GCC_441\Debug\main.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
 <dep name=".\Generated_Source\PSoC5\BoostConv_1.h" />
 <dep name=".\Generated_Source\PSoC5\CyDmac.h" />
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -46,11 +41,6 @@
 <dep name=".\device.h" />
 <dep name=".\main.c" />
 </file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h" />
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
 <file name=".\Generated_Source\PSoC5\BoostConv_1.h" />
 <file name=".\Generated_Source\PSoC5\CyDmac.h" />
 <file name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -78,76 +68,6 @@
 <file name=".\Generated_Source\PSoC5\project.h" />
 <file name=".\device.h" />
 <file name=".\main.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_Bypass.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_INT.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_INT.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_INT.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_IRQ.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.H" />
-<dep name=".\Generated_Source\PSoC5\CYDEVICE_TRM.H" />
-<dep name=".\Generated_Source\PSoC5\CYLIB.H" />
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.H" />
-<file name=".\Generated_Source\PSoC5\CYDEVICE_TRM.H" />
-<file name=".\Generated_Source\PSoC5\CYLIB.H" />
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_PM.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_PM.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_PM.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_theACLK.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.c" />
 <file name=".\CortexM3\ARM_GCC_441\Debug\BoostConv_1.o">
 <dep name=".\Generated_Source\PSoC5\BoostConv_1.h" />
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -225,11 +145,6 @@
 </file>
 <file name=".\Generated_Source\PSoC5\CySpc.c" />
 <file name=".\CortexM3\ARM_GCC_441\Debug\Freebooter_1.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
 <dep name=".\Generated_Source\PSoC5\BoostConv_1.h" />
 <dep name=".\Generated_Source\PSoC5\CyDmac.h" />
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -421,11 +336,6 @@
 <file name=".\Generated_Source\PSoC5\CYDMAC.H" />
 <file name=".\Generated_Source\PSoC5\USBFS_1_midi.c" />
 <file name=".\CortexM3\ARM_GCC_441\Debug\USBFS_1_pm.o">
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h" />
-<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
 <dep name=".\Generated_Source\PSoC5\BoostConv_1.h" />
 <dep name=".\Generated_Source\PSoC5\CyDmac.h" />
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
@@ -481,6 +391,10 @@
 <dep name=".\Generated_Source\PSoC5\USBFS_1_vnd.c" />
 </file>
 <file name=".\Generated_Source\PSoC5\USBFS_1_vnd.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\core_cm3.o">
+<dep name=".\Generated_Source\PSoC5\core_cm3.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\core_cm3.c" />
 <file name=".\CortexM3\ARM_GCC_441\Debug\cyPm.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -514,14 +428,85 @@
 <dep name=".\Generated_Source\PSoC5\cyutils.c" />
 </file>
 <file name=".\Generated_Source\PSoC5\cyutils.c" />
-<file name=".\CortexM3\ARM_GCC_441\Debug\core_cm3.o">
-<dep name=".\Generated_Source\PSoC5\core_cm3.c" />
-</file>
-<file name=".\Generated_Source\PSoC5\core_cm3.c" />
 <file name=".\CortexM3\ARM_GCC_441\Debug\CyBootAsmGnu.o">
 <dep name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
 </file>
 <file name=".\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_Bypass.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_Bypass.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_INT.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_INT.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_INT.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_IRQ.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.H" />
+<dep name=".\Generated_Source\PSoC5\CYDEVICE_TRM.H" />
+<dep name=".\Generated_Source\PSoC5\CYLIB.H" />
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.H" />
+<file name=".\Generated_Source\PSoC5\CYDEVICE_TRM.H" />
+<file name=".\Generated_Source\PSoC5\CYLIB.H" />
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_IRQ.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_PM.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_PM.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_PM.c" />
+<file name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_theACLK.o">
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.c" />
+</file>
+<file name=".\Generated_Source\PSoC5\ADC_SAR_1_theACLK.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -558,12 +543,6 @@
 <dep name=".\CortexM3\ARM_GCC_441\Debug\cyPm.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Debug\CySpc.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Debug\cyutils.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_INT.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_PM.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_IRQ.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_theACLK.o" />
-<dep name=".\CortexM3\ARM_GCC_441\Debug\ADC_SAR_1_Bypass.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Debug\cyfitter_cfg.o" />
 <dep name=".\CortexM3\ARM_GCC_441\Debug\Bootloader.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_441\Debug\CyComponentLibrary.a" />
@@ -631,6 +610,369 @@
 <CyGuid_86d01f21-b452-4e2c-a46e-44cabf408646 type_name="CyDesigner.Gde.Schematic.CySymbolToolboxControl+CyCompCatalogData" version="1" last_tab_used="Cypress">
 <NOOP />
 </CyGuid_86d01f21-b452-4e2c-a46e-44cabf408646>
+</dataGuid>
+<dataGuid v="925cc1e1-309e-4e08-b0a1-09a83c35b157">
+<CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtProjectPSoCExe+CyCodeGenDepUserInfo" version="1">
+<deps_list>
+<v>.\TopDesign\TopDesign.cysch</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Freebooter_v1_0.cysym</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Freebooter_v1_0.cystate</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cycustomizer.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cygeneralpage.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cygeneralpage.Designer.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cyparameters.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cywrappercontrol.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\Properties\Resources.Designer.cs</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\cygeneralpage.resx</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\Custom\Properties\Resources.resx</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\PSoC5\API\Freebooter.c</v>
+<v>Z:\Google Drive\projects\tricorder\src\freebooter\Freebooter.cylib\Freebooter_v1_0\PSoC5\API\Freebooter.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\USBFS_v2_50.cysch</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\USBFS_v2_50.cysym</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\USBFS_v2_50.pdf</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\USBFS_v2_50.cycdx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\USBFS_v2_50.cystate</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_audio.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_audio.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_boot.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_cdc.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_cdc.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_cls.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_descr.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_drv.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_episr.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_hid.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_hid.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_pm.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_std.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_vnd.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_cdc.inf</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_midi.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\API\USBFS_midi.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\Properties\Resources.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyadvancedpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyadvancedpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyapicustomizer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyaudio.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyaudiodescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyaudiodescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cycdc.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cycdcdescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cycdcdescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cycustomizer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsconfig.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsconfig.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsdevice.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsdevice.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsendpoint.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsendpoint.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailshid.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailshid.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsinterface.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsinterface.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailslangid.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailslangid.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsstring.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsstring.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydevice.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydevicedescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydevicedescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyhiddescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyhiddescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportbase.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportbase.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportbits.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportbits.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportcustom.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportcustom.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportlist.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportlist.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportnumber.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportnumber.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportunit.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportunit.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cystringdescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cystringdescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cytemplates.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyusbdescriptor.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyusbparameters.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyaudio2_0.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsepmngt.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsepmngt.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cymidi.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cymididescriptorpage.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cymididescriptorpage.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cymiditemplate.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\Properties\Resources.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyadvancedpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyaudiodescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cycdcdescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsconfig.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsdevice.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsendpoint.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailshid.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsinterface.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailslangid.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsstring.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydevicedescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyhiddescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportbits.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportcustom.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportlist.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportnumber.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cyreportunit.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cystringdescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cydetailsepmngt.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\USBFS_v2_50\Custom\cymididescriptorpage.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_psoc3_usb_v1_0\cy_psoc3_usb_v1_0.cyprimitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_psoc3_usb_v1_0\cy_psoc3_usb_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cyprimitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\Resource1.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\Resource1.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\aliases.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\pins.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\pins.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cyprimitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\cy_pins_v1_80.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\Resource1.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cygeneralcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyinputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cymappingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyoutputcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinaliasdialog.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cypinscontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyporcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cytypecontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\Resource1.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\Custom\cyclockingcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\aliases.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\pins.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v1_80\PSoC5\API\pins.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC5\API\intc.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\BoostConv_v4_0.cystate</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\BoostConv_v4_0.cysym</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\BoostConv_v4_0.pdf</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\BoostConv_v4_0.cycdx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\API\BoostConv.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\API\BoostConv.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\Properties\Resources.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\cyconfigurationtab.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\cycustomizer.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\cyparameters.cs</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\Properties\Resources.resx</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BoostConv_v4_0\Custom\cyconfigurationtab.resx</v>
+<v>.\Bootloader.cydwr</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cm3gcc.ld</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\Cm3RealView.scat</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\Cm3Start.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\core_cm3.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\core_cm3.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\core_cm3_psoc5.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyBootAsmGnu.s</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyBootAsmRv.s</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyDmac.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyDmac.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyFlash.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyFlash.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyLib.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CyLib.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cypins.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cyPm.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cyPm.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CySpc.c</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\CySpc.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cytypes.h</v>
+<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v3_40\PSoC5\API\cyutils.c</v>
+</deps_list>
+<gen_list>
+<v>.\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>.\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>.\Generated_Source\PSoC5\protect.hex</v>
+<v>.\Generated_Source\PSoC5\cydevice.h</v>
+<v>.\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>.\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>.\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>.\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>.\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>.\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>.\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>.\Generated_Source\PSoC5\cyfitter.h</v>
+<v>.\Generated_Source\PSoC5\Freebooter_1.c</v>
+<v>.\Generated_Source\PSoC5\Freebooter_1.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_audio.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_audio.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_boot.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_cdc.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_cdc.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_cls.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_descr.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_drv.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_episr.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_hid.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_hid.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_pm.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_std.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_vnd.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_cdc.inf</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_midi.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_midi.h</v>
+<v>.\Generated_Source\PSoC5\BoostConv_1.c</v>
+<v>.\Generated_Source\PSoC5\BoostConv_1.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dm_aliases.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dm.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dm.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dp_aliases.h</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dp.c</v>
+<v>.\Generated_Source\PSoC5\USBFS_1_Dp.h</v>
+<v>.\Generated_Source\PSoC5\cm3gcc.ld</v>
+<v>.\Generated_Source\PSoC5\Cm3RealView.scat</v>
+<v>.\Generated_Source\PSoC5\Cm3Start.c</v>
+<v>.\Generated_Source\PSoC5\core_cm3_psoc5.h</v>
+<v>.\Generated_Source\PSoC5\core_cm3.c</v>
+<v>.\Generated_Source\PSoC5\core_cm3.h</v>
+<v>.\Generated_Source\PSoC5\CyBootAsmGnu.s</v>
+<v>.\Generated_Source\PSoC5\CyBootAsmRv.s</v>
+<v>.\Generated_Source\PSoC5\CyDmac.c</v>
+<v>.\Generated_Source\PSoC5\CyDmac.h</v>
+<v>.\Generated_Source\PSoC5\CyFlash.c</v>
+<v>.\Generated_Source\PSoC5\CyFlash.h</v>
+<v>.\Generated_Source\PSoC5\CyLib.c</v>
+<v>.\Generated_Source\PSoC5\CyLib.h</v>
+<v>.\Generated_Source\PSoC5\cypins.h</v>
+<v>.\Generated_Source\PSoC5\cyPm.c</v>
+<v>.\Generated_Source\PSoC5\cyPm.h</v>
+<v>.\Generated_Source\PSoC5\CySpc.c</v>
+<v>.\Generated_Source\PSoC5\CySpc.h</v>
+<v>.\Generated_Source\PSoC5\cytypes.h</v>
+<v>.\Generated_Source\PSoC5\cyutils.c</v>
+<v>.\Generated_Source\PSoC5\project.h</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1.h</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_INT.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_PM.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_IRQ.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_IRQ.h</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_theACLK.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_theACLK.h</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_Bypass.c</v>
+<v>.\Generated_Source\PSoC5\ADC_SAR_1_Bypass.h</v>
+</gen_list>
+<warp_dep>
+<v>C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
+<v>C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
+<v>C:\Program Files (x86)\Cypress\PSoC Creator\2.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
+</warp_dep>
+<deps_time v="130146656784208076" />
+<top_block v="TopDesign" />
+</CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="237c8ed1-e161-4c9d-af97-582eda6d6952">
 <CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31 type_name="CyDesigner.PSoC.P3Fit.Common.DesignWideResources.DeviceEditor.CyCustomAnalogDevData" version="1" ZoomToPage="False" ZoomScale="1" ScrollX="1" ScrollY="949">

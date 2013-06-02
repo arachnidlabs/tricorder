@@ -3,8 +3,7 @@
  * Version `$CY_MAJOR_VERSION`.`$CY_MINOR_VERSION`
  *
  *  Description:
- *    Provides an interface to 'Nokia 5110' type LCD screens, or anything else
- *    driven by the PCD8544 LCD controller.
+ *    Provides an interface to ST 7565R LCD controllers.
  *
  *******************************************************************************
  *
@@ -34,21 +33,35 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *******************************************************************************/
 
-#include "device.h"
+#include <cytypes.h>
 
-#if !defined(PCD8544_`$INSTANCE_NAME`_H)
-#define PCD8544_`$INSTANCE_NAME`_H
+#if !defined(ST7565R_`$INSTANCE_NAME`_H)
+#define ST7565R_`$INSTANCE_NAME`_H
 
-#define `$INSTANCE_NAME`_ADDR_VERTICAL 0x02
-#define `$INSTANCE_NAME`_ADDR_HORIZONTAL 0x00
+#define `$INSTANCE_NAME`_POWER 0xAE
+#define `$INSTANCE_NAME`_SET_START_LINE 0x40
+#define `$INSTANCE_NAME`_SET_PAGE 0xB0
+#define `$INSTANCE_NAME`_SET_COLUMN 0x1000
+#define `$INSTANCE_NAME`_ADC_SELECT 0xA0
+#define `$INSTANCE_NAME`_DISPLAY_REVERSE 0xA6
+#define `$INSTANCE_NAME`_DISPLAY_ALL_PTS 0xA4
+#define `$INSTANCE_NAME`_SET_BIAS 0xA2
+#define `$INSTANCE_NAME`_RESET 0xE2
+#define `$INSTANCE_NAME`_COMMON_SELECT 0xC8
+#define `$INSTANCE_NAME`_POWER_CONTROL 0x28
+#define `$INSTANCE_NAME`_V0_REGULATOR_RATIO 0x20
+#define `$INSTANCE_NAME`_SET_VOLUME 0x8100
+#define `$INSTANCE_NAME`_SET_STATIC_INDICATOR 0xAC00
+#define `$INSTANCE_NAME`_SET_BOOSTER_RATIO 0xF800
+#define `$INSTANCE_NAME`_NOP 0xE3
 
-#define `$INSTANCE_NAME`_DISPLAY_BLANK 0x00
-#define `$INSTANCE_NAME`_DISPLAY_NORMAL 0x04
-#define `$INSTANCE_NAME`_DISPLAY_SOLID 0x01
-#define `$INSTANCE_NAME`_DISPLAY_INVERSE 0x05
+#define `$INSTANCE_NAME`_COLUMNS 132
+#define `$INSTANCE_NAME`_VISIBLE_COLUMNS 128
+#define `$INSTANCE_NAME`_ROWS 64
+#define `$INSTANCE_NAME`_BUFFER_SIZE ((`$INSTANCE_NAME`_COLUMNS * `$INSTANCE_NAME`_ROWS) / 8)
 
 typedef struct `$INSTANCE_NAME`_buffer {
-    uint8 data[504];
+    uint8 data[`$INSTANCE_NAME`_BUFFER_SIZE];
 } `$INSTANCE_NAME`_buffer;
 
 extern uint8 `$INSTANCE_NAME`_initVar;
@@ -57,15 +70,17 @@ extern void `$INSTANCE_NAME`_Start(void);
 extern void `$INSTANCE_NAME`_Init(void);
 extern void `$INSTANCE_NAME`_Enable(void);
 
-extern void `$INSTANCE_NAME`_SetAddressMode(int);
-extern void `$INSTANCE_NAME`_SetDisplayMode(int);
-extern void `$INSTANCE_NAME`_SetTemperatureCoefficient(int);
-extern void `$INSTANCE_NAME`_SetBiasSystem(int);
-extern void `$INSTANCE_NAME`_SetVop(int);
-
-extern void `$INSTANCE_NAME`_Update(`$INSTANCE_NAME`_buffer*);
+extern void `$INSTANCE_NAME`_SendCommand(uint8);
+extern void `$INSTANCE_NAME`_SendLongCommand(uint16);
+extern `$INSTANCE_NAME`_buffer* `$INSTANCE_NAME`_Update(`$INSTANCE_NAME`_buffer*, uint8, uint8);
 
 extern int `$INSTANCE_NAME`_Busy(void);
+
+extern void `$INSTANCE_NAME`_PrintString(char *s);
+extern void `$INSTANCE_NAME`_PutChar(char c);
+extern void `$INSTANCE_NAME`_Position(uint8 row, uint8 column);
+extern void `$INSTANCE_NAME`_ClearDisplay();
+
 
 #endif
 //[] END OF FILE

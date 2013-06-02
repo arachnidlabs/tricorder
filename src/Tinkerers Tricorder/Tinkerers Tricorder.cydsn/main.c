@@ -13,6 +13,8 @@
 #include <math.h>
 #include <stdio.h>
 
+#include "glcdfont.h"
+
 // initializes the hardware
 void Init_Hardware(void);
 
@@ -158,6 +160,15 @@ uint8 EOC_Flag = 0;
 #define Sine_DMA_SRC_BASE (CYDEV_SRAM_BASE)
 #define Sine_DMA_DST_BASE (CYDEV_PERIPH_BASE)
 
+#define LCD_CUSTOM_0 '0'
+#define LCD_CUSTOM_1 '1'
+#define LCD_CUSTOM_2 '2'
+#define LCD_CUSTOM_3 '3'
+#define LCD_CUSTOM_4 '4'
+#define LCD_CUSTOM_5 '5'
+#define LCD_CUSTOM_6 '6'
+#define LCD_CUSTOM_7 '7'
+
 void main()
 {
 	uint16 divider;  // varaible that holds the clock divider index for driving the DMA
@@ -197,6 +208,7 @@ void main()
 	
 	// update the user on the status
 	sprintf(szBuffer,"Open circuit cal");
+    
 	LCD_Position(0,0);
 	LCD_PrintString(szBuffer);
 	
@@ -301,7 +313,7 @@ void main()
 		
 		// if the button is pressed, cycle through the different
 		// frequencies of the sine wave
-		if(Button_Freq_Read() ==  0)
+		/*if(Button_Freq_Read() ==  0)
 		{
 			divider++;
 			divider %= FPOSSIBLE;
@@ -314,7 +326,7 @@ void main()
 			Op_Mode++;
 			Op_Mode %= NUMBER_OF_MODES;
 			LCD_ClearDisplay();
-		}
+		}*/
 		
 		// equivalent circuit calculations
 		// equivalent series calculation
@@ -560,8 +572,8 @@ void Init_Hardware(void)
 	CYGlobalIntEnable
 	
 	Phase_Write(0);
-	Button_Freq_Write(1);
-	Button_Mode_Write(1);
+//	Button_Freq_Write(1);
+//	Button_Mode_Write(1);
 	SOC_Go_Write(0);
 	
 	Divider_Start();

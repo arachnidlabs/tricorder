@@ -21,8 +21,8 @@
 <tr><td>P3[0]</td><td>BNC 2 Tip</td></tr>
 <tr><td>P3[1]</td><td>BNC 1 Tip</td></tr>
 <tr><td>P3[2]</td><td>DSA Bypass</td></tr>
-<tr><td>P3[3]</td><td>BNC 1 Tip Feedback</td></tr>
-<tr><td>P3[4]</td><td>BNC 1 Tip Lowpass Filter Switch</td></tr>
+<tr><td>P3[3]</td><td>BNC 1 Tip Lowpass Filter Switch</td></tr>
+<tr><td>P3[4]</td><td>BNC 1 Tip Feedback</td></tr>
 <tr><td>P3[5]</td><td>BNC 1 Tip Range Switch</td></tr>
 <tr><td>P3[6]</td><td>BNC 1 Tip</td></tr>
 <tr><td>P3[7]</td><td>BNC 2 Tip</td></tr>
