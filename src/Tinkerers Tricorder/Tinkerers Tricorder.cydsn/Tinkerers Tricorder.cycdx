@@ -1,89 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="TP2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="TP1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="vRef_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="TP1_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Clock_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="C_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="TP1_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="vRef_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="ADC_Clock_Ext" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="C_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD_RST" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="drive_range" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="GND_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Clock_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD_CS" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="tia_range" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="GND_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD_MOSI" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="ResistiveTouch_1" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <block name="ResistiveTouch_1_ADC_SAR" BASE="0x0" SIZE="0x0" desc="SAR ADC" visible="true">
-      <block name="ZeroTerminal_6" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_8" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_7" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="theACLK" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="cy_analog_virtualmux_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="noconnect" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="vRef_Vdda_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="cy_analog_noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ADC_SAR" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="Clock_VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="cy_analog_virtualmux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="cy_analog_virtualmux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="cy_analog_virtualmux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="IRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <register name="SAR_TR0" address="0x40004616" bitWidth="8" desc="SAR trim register" />
-      <register name="SAR_CSR0" address="0x40005908" bitWidth="8" desc="SAR status and control register 0" />
-      <register name="SAR_CSR1" address="0x40005909" bitWidth="8" desc="SAR status and control register 1" />
-      <register name="SAR_CSR2" address="0x4000590A" bitWidth="8" desc="SAR status and control register 2" />
-      <register name="SAR_CSR3" address="0x4000590B" bitWidth="8" desc="SAR status and control register 3" />
-      <register name="SAR_CSR4" address="0x4000590C" bitWidth="8" desc="SAR status and control register 4" />
-      <register name="SAR_CSR5" address="0x4000590D" bitWidth="8" desc="SAR status and control register 5" />
-      <register name="SAR_CSR6" address="0x4000590E" bitWidth="8" desc="SAR status and control register 6" />
-      <register name="SAR_SW0" address="0x40005B28" bitWidth="8" desc="SAR Analog Routing Register 0" />
-      <register name="SAR_SW2" address="0x40005B2A" bitWidth="8" desc="SAR Analog Routing Register 2" />
-      <register name="SAR_SW3" address="0x40005B2B" bitWidth="8" desc="SAR Analog Routing Register 3" />
-      <register name="SAR_SW4" address="0x40005B2C" bitWidth="8" desc="SAR Analog Routing Register 4" />
-      <register name="SAR_SW6" address="0x40005B2E" bitWidth="8" desc="SAR Analog Routing Register 6" />
-      <register name="SAR_CLK" address="0x40005B2F" bitWidth="8" desc="SAR Clock Selection Register" />
-      <register name="SAR_WRK" address="0x40005BA2" bitWidth="16" desc="SAR working register" />
-    </block>
-    <block name="yp" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="cy_analog_virtualmux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="xm" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="AMux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="ym" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="xp" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  </block>
-  <block name="cy_constant_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="LCD_LCD_Control" BASE="0x0" SIZE="0x0" desc="" visible="true">
-      <register name="LCD_LCD_Control_CONTROL_REG" address="0x4000647F" bitWidth="8" desc="" />
-    </block>
-    <block name="LCD_SPI" BASE="0x0" SIZE="0x0" desc="" visible="true">
-      <block name="VirtualMux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="VirtualMux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="IntClock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-      <block name="BSPIM" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    </block>
-  </block>
-  <block name="R_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Sync_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="C_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Clock_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="ADC" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="cy_analog_virtualmux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="cy_analog_virtualmux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -902,9 +822,202 @@
       </field>
     </register>
   </block>
-  <block name="R_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="K_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="drive_freq_range" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="R_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LCD_RST" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="vRef_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="GND_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="drive_range" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TP1_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TP1_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TP1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TP2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="K_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Debouncer_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Clock_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Power_SW" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LED_BL" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="PWM_1" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="vmTC" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="vmIRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="FFKillMux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="OneTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="vmCompare" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="PWMUDB" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <register name="PWM_1_COMPARE_Reg_" address="0x40006427" bitWidth="8" desc="UDB.D0 - Assigned Compare Value" />
+    <register name="PWM_1_STATUS_MASK" address="0x40006487" bitWidth="8" desc="UDB Status bits Interrupt Mask Enable Register">
+      <field name="PWM_STS_CMP1" from="0" to="0" access="R" resetVal="" desc="Enables the Interrupt on Compare 1" />
+      <field name="PWM_STS_CMP2" from="1" to="1" access="R" resetVal="" desc="Enables the Interrupt on Compare 2" />
+      <field name="PWM_STS_TC" from="2" to="2" access="R" resetVal="" desc="Enables the Interrupt on Terminal Count" />
+      <field name="PWM_STS_FIFO_FULL" from="3" to="3" access="R" resetVal="" desc="FIFO Full Status Mask " />
+      <field name="PWM_STS_KILL" from="5" to="5" access="R" resetVal="" desc="Enables the Interrupt on Kill" />
+    </register>
+    <register name="PWM_1_STATUS_AUX_CTRL" address="0x40006497" bitWidth="8" desc="UDB Auxilliary Control Register">
+      <field name="FIFO0_CLR" from="0" to="0" access="RW" resetVal="" desc="FIFO0 clear">
+        <value name="E_FIFO_CLR_0" value="0" desc="Normal FIFO operation" />
+        <value name="E_FIFO_CLR_1" value="1" desc="Clear FIFO state" />
+      </field>
+      <field name="FIFO1_CLR" from="1" to="1" access="RW" resetVal="" desc="FIFO1 clear">
+        <value name="E_FIFO_CLR_0" value="0" desc="Normal FIFO operation" />
+        <value name="E_FIFO_CLR_1" value="1" desc="Clear FIFO state" />
+      </field>
+      <field name="FIFO0_LVL" from="2" to="2" access="RW" resetVal="" desc="FIFO level">
+        <value name="E_FIFO_LVL_0" value="0" desc="FIFO LVL: input mode: FIFO not full; output mode: FIFO not empty" />
+        <value name="E_FIFO_LVL_1" value="1" desc="FIFO LVL: input mode: FIFO at least 1/2 empty; output mode: FIFO at least 1/2 full" />
+      </field>
+      <field name="FIFO1_LVL" from="3" to="3" access="RW" resetVal="" desc="FIFO level">
+        <value name="E_FIFO_LVL_0" value="0" desc="FIFO LVL: input mode: FIFO not full; output mode: FIFO not empty" />
+        <value name="E_FIFO_LVL_1" value="1" desc="FIFO LVL: input mode: FIFO at least 1/2 empty; output mode: FIFO at least 1/2 full" />
+      </field>
+      <field name="INT_EN" from="4" to="4" access="RW" resetVal="" desc="">
+        <value name="E_INT_EN0" value="0" desc="Interrupt disabled" />
+        <value name="E_INT_EN1" value="1" desc="Interrupt enabled" />
+      </field>
+      <field name="CNT_START" from="5" to="5" access="RW" resetVal="" desc="FIFO0 clear">
+        <value name="E_CNT_START0" value="0" desc="Disable counter" />
+        <value name="E_CNT_START1" value="1" desc="Enable counter" />
+      </field>
+    </register>
+  </block>
+  <block name="cy_constant_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="timer_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="tia_range" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LCD_CS" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="R_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="GND_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="cy_constant_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="ResistiveTouch_1" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="ResistiveTouch_1_ADC_SAR" BASE="0x0" SIZE="0x0" desc="SAR ADC" visible="true">
+      <block name="ZeroTerminal_6" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_5" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_8" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_7" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="theACLK" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="cy_analog_virtualmux_4" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="noconnect" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="vRef_Vdda_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="cy_analog_noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ADC_SAR" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="Clock_VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="cy_analog_virtualmux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="cy_analog_virtualmux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="cy_analog_virtualmux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="IRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <register name="SAR_TR0" address="0x40004616" bitWidth="8" desc="SAR trim register" />
+      <register name="SAR_CSR0" address="0x40005908" bitWidth="8" desc="SAR status and control register 0" />
+      <register name="SAR_CSR1" address="0x40005909" bitWidth="8" desc="SAR status and control register 1" />
+      <register name="SAR_CSR2" address="0x4000590A" bitWidth="8" desc="SAR status and control register 2" />
+      <register name="SAR_CSR3" address="0x4000590B" bitWidth="8" desc="SAR status and control register 3" />
+      <register name="SAR_CSR4" address="0x4000590C" bitWidth="8" desc="SAR status and control register 4" />
+      <register name="SAR_CSR5" address="0x4000590D" bitWidth="8" desc="SAR status and control register 5" />
+      <register name="SAR_CSR6" address="0x4000590E" bitWidth="8" desc="SAR status and control register 6" />
+      <register name="SAR_SW0" address="0x40005B28" bitWidth="8" desc="SAR Analog Routing Register 0" />
+      <register name="SAR_SW2" address="0x40005B2A" bitWidth="8" desc="SAR Analog Routing Register 2" />
+      <register name="SAR_SW3" address="0x40005B2B" bitWidth="8" desc="SAR Analog Routing Register 3" />
+      <register name="SAR_SW4" address="0x40005B2C" bitWidth="8" desc="SAR Analog Routing Register 4" />
+      <register name="SAR_SW6" address="0x40005B2E" bitWidth="8" desc="SAR Analog Routing Register 6" />
+      <register name="SAR_CLK" address="0x40005B2F" bitWidth="8" desc="SAR Clock Selection Register" />
+      <register name="SAR_WRK" address="0x40005BA2" bitWidth="16" desc="SAR working register" />
+    </block>
+    <block name="yp" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="cy_analog_virtualmux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="xm" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="AMux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ym" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="xp" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  </block>
+  <block name="LCD_MOSI" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LCD" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="LCD_LCD_Control" BASE="0x0" SIZE="0x0" desc="" visible="true">
+      <register name="LCD_LCD_Control_CONTROL_REG" address="0x40006474" bitWidth="8" desc="" />
+    </block>
+    <block name="LCD_SPI" BASE="0x0" SIZE="0x0" desc="" visible="true">
+      <block name="VirtualMux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="VirtualMux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="IntClock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+      <block name="BSPIM" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    </block>
+  </block>
+  <block name="TIA_Input" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Drive_Out" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TIA" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="ABuf" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="abuf_negInput_mux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <register name="PM_ACT_CFG4" address="0x400043A4" bitWidth="8" desc="Active Power Mode Configuration Register 4">
+      <field name="EN_OPAMP" from="3" to="0" access="RW" resetVal="" desc="Enables subsystems during active power mode">
+        <value name="Blk 0" value="0000" desc="Enables analog linear output buffer for Opamp block 0" />
+        <value name="Blk 1" value="0010" desc="Enables analog linear output buffer for Opamp block 1" />
+        <value name="Blk 2" value="0100" desc="Enables analog linear output buffer for Opamp block 2" />
+        <value name="Blk 3" value="1000" desc="Enables analog linear output buffer for Opamp block 3" />
+      </field>
+    </register>
+    <register name="PM_STBY_CFG4" address="0x400043B4" bitWidth="8" desc="Standby Power Mode Configuration Register 4">
+      <field name="EN_OPAMP" from="3" to="0" access="RW" resetVal="" desc="Enables subsystems during standby power mode">
+        <value name="Blk 0" value="0000" desc="Enables analog linear output buffer for Opamp block 0" />
+        <value name="Blk 1" value="0010" desc="Enables analog linear output buffer for Opamp block 1" />
+        <value name="Blk 2" value="0100" desc="Enables analog linear output buffer for Opamp block 2" />
+        <value name="Blk 3" value="1000" desc="Enables analog linear output buffer for Opamp block 3" />
+      </field>
+    </register>
+    <register name="OPAMP__TR0" address="0x40004620" bitWidth="8" desc="Analog Output Buffer Trim Register 0">
+      <field name="offset_trim" from="4" to="0" access="RW" resetVal="" desc="Offset Trim: 420uV typical step size; +/- 6.8mV offset trimmable range" />
+    </register>
+    <register name="OPAMP__TR1" address="0x40004621" bitWidth="8" desc="Analog Output Buffer Trim Register 1">
+      <field name="RSVD" from="7" to="0" access="RW" resetVal="" desc="RSVD" />
+    </register>
+    <register name="OPAMP__CR" address="0x40005858" bitWidth="8" desc="Analog Output Buffer Configuration Register">
+      <field name="pwr_mode" from="1" to="0" access="RW" resetVal="" desc="Power Mode">
+        <value name="Default Fast" value="00" desc="Default Power mode Fast" />
+        <value name="Slow" value="01" desc="Power Mode Slow" />
+        <value name="Medium" value="10" desc="Power Mode Medium" />
+        <value name="Fast" value="11" desc="Power Mode Fast" />
+      </field>
+    </register>
+    <register name="OPAMP__MX" address="0x40005B40" bitWidth="8" desc="Analog Buffer Input Selection Register">
+      <field name="MX_VP_ENUM" from="3" to="0" access="RW" resetVal="" desc="MUX select VP (Positive terminal input)">
+        <value name="OPAMP0_MX_VP_DEFAULT" value="0000" desc="Default - Not Connected (NC)" />
+        <value name="OPAMP0_MX_VP_AG4" value="0001" desc="MUX Selection AGL(4)" />
+        <value name="OPAMP0_MX_VP_AG5" value="0010" desc="MUX Selection AGL(5)" />
+        <value name="OPAMP0_MX_VP_AG6" value="0011" desc="MUX Selection AGL(6)" />
+        <value name="OPAMP0_MX_VP_AG7" value="0100" desc="MUX Selection AGL(7)" />
+        <value name="OPAMP0_MX_VP_ABUS0" value="0101" desc="MUX Selection ABUSL(0)" />
+        <value name="OPAMP0_MX_VP_ABUS1" value="0110" desc="MUX Selection ABUSL(1)" />
+        <value name="OPAMP0_MX_VP_ABUS2" value="0111" desc="MUX Selection ABUSL(2)" />
+        <value name="OPAMP0_MX_VP_ABUS3" value="1000" desc="MUX Selection ABUSL(3)" />
+        <value name="OPAMP0_MX_VP_VREF" value="1001" desc="MUX Selection: OPAMP Voltage Reference" />
+        <value name="OPAMP0_MX_VP_H_0xA" value="1010" desc="Reserved (NC)" />
+        <value name="OPAMP0_MX_VP_H_0xB" value="1011" desc="Reserved (NC)" />
+        <value name="OPAMP0_MX_VP_H_0xC" value="1100" desc="Reserved (NC)" />
+        <value name="OPAMP0_MX_VP_H_0xD" value="1101" desc="Reserved (NC)" />
+        <value name="OPAMP0_MX_VP_H_0xE" value="1110" desc="Reserved (NC)" />
+        <value name="OPAMP0_MX_VP_H_0xF" value="1111" desc="Reserved (NC)" />
+      </field>
+      <field name="MX_VN_ENUM" from="5" to="4" access="RW" resetVal="" desc="MUX select VN (Negative terminal input)">
+        <value name="OPAMP0_MX_VN_DEFAULT" value="00" desc="Default - Not Connected (NC)" />
+        <value name="OPAMP0_MX_VN_AG4" value="01" desc="MUX Selection AGL(4)" />
+        <value name="OPAMP0_MX_VN_AG6" value="10" desc="MUX Selection AGL(6)" />
+        <value name="OPAMP0_MX_VN_0x3" value="11" desc="Reserved (NC)" />
+      </field>
+    </register>
+    <register name="OPAMP__SW" address="0x40005B41" bitWidth="8" desc="Analog Buffer Routing Switch Register">
+      <field name="swfol" from="0" to="0" access="RW" resetVal="" desc="Switch Enable Follow" />
+      <field name="swinn" from="1" to="1" access="RW" resetVal="" desc="Switch Enable Negative Input" />
+      <field name="swinp" from="2" to="2" access="RW" resetVal="" desc="Switch Enable Positive Input" />
+    </register>
+  </block>
   <block name="Clipping_Sense" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="ctComp" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -1108,78 +1221,14 @@
       <field name="cmp0_out" from="0" to="0" access="R" resetVal="" desc="Comparator Output" />
     </register>
   </block>
-  <block name="TIA" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <block name="ABuf" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <block name="abuf_negInput_mux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-    <register name="PM_ACT_CFG4" address="0x400043A4" bitWidth="8" desc="Active Power Mode Configuration Register 4">
-      <field name="EN_OPAMP" from="3" to="0" access="RW" resetVal="" desc="Enables subsystems during active power mode">
-        <value name="Blk 0" value="0000" desc="Enables analog linear output buffer for Opamp block 0" />
-        <value name="Blk 1" value="0010" desc="Enables analog linear output buffer for Opamp block 1" />
-        <value name="Blk 2" value="0100" desc="Enables analog linear output buffer for Opamp block 2" />
-        <value name="Blk 3" value="1000" desc="Enables analog linear output buffer for Opamp block 3" />
-      </field>
-    </register>
-    <register name="PM_STBY_CFG4" address="0x400043B4" bitWidth="8" desc="Standby Power Mode Configuration Register 4">
-      <field name="EN_OPAMP" from="3" to="0" access="RW" resetVal="" desc="Enables subsystems during standby power mode">
-        <value name="Blk 0" value="0000" desc="Enables analog linear output buffer for Opamp block 0" />
-        <value name="Blk 1" value="0010" desc="Enables analog linear output buffer for Opamp block 1" />
-        <value name="Blk 2" value="0100" desc="Enables analog linear output buffer for Opamp block 2" />
-        <value name="Blk 3" value="1000" desc="Enables analog linear output buffer for Opamp block 3" />
-      </field>
-    </register>
-    <register name="OPAMP__TR0" address="0x40004620" bitWidth="8" desc="Analog Output Buffer Trim Register 0">
-      <field name="offset_trim" from="4" to="0" access="RW" resetVal="" desc="Offset Trim: 420uV typical step size; +/- 6.8mV offset trimmable range" />
-    </register>
-    <register name="OPAMP__TR1" address="0x40004621" bitWidth="8" desc="Analog Output Buffer Trim Register 1">
-      <field name="RSVD" from="7" to="0" access="RW" resetVal="" desc="RSVD" />
-    </register>
-    <register name="OPAMP__CR" address="0x40005858" bitWidth="8" desc="Analog Output Buffer Configuration Register">
-      <field name="pwr_mode" from="1" to="0" access="RW" resetVal="" desc="Power Mode">
-        <value name="Default Fast" value="00" desc="Default Power mode Fast" />
-        <value name="Slow" value="01" desc="Power Mode Slow" />
-        <value name="Medium" value="10" desc="Power Mode Medium" />
-        <value name="Fast" value="11" desc="Power Mode Fast" />
-      </field>
-    </register>
-    <register name="OPAMP__MX" address="0x40005B40" bitWidth="8" desc="Analog Buffer Input Selection Register">
-      <field name="MX_VP_ENUM" from="3" to="0" access="RW" resetVal="" desc="MUX select VP (Positive terminal input)">
-        <value name="OPAMP0_MX_VP_DEFAULT" value="0000" desc="Default - Not Connected (NC)" />
-        <value name="OPAMP0_MX_VP_AG4" value="0001" desc="MUX Selection AGL(4)" />
-        <value name="OPAMP0_MX_VP_AG5" value="0010" desc="MUX Selection AGL(5)" />
-        <value name="OPAMP0_MX_VP_AG6" value="0011" desc="MUX Selection AGL(6)" />
-        <value name="OPAMP0_MX_VP_AG7" value="0100" desc="MUX Selection AGL(7)" />
-        <value name="OPAMP0_MX_VP_ABUS0" value="0101" desc="MUX Selection ABUSL(0)" />
-        <value name="OPAMP0_MX_VP_ABUS1" value="0110" desc="MUX Selection ABUSL(1)" />
-        <value name="OPAMP0_MX_VP_ABUS2" value="0111" desc="MUX Selection ABUSL(2)" />
-        <value name="OPAMP0_MX_VP_ABUS3" value="1000" desc="MUX Selection ABUSL(3)" />
-        <value name="OPAMP0_MX_VP_VREF" value="1001" desc="MUX Selection: OPAMP Voltage Reference" />
-        <value name="OPAMP0_MX_VP_H_0xA" value="1010" desc="Reserved (NC)" />
-        <value name="OPAMP0_MX_VP_H_0xB" value="1011" desc="Reserved (NC)" />
-        <value name="OPAMP0_MX_VP_H_0xC" value="1100" desc="Reserved (NC)" />
-        <value name="OPAMP0_MX_VP_H_0xD" value="1101" desc="Reserved (NC)" />
-        <value name="OPAMP0_MX_VP_H_0xE" value="1110" desc="Reserved (NC)" />
-        <value name="OPAMP0_MX_VP_H_0xF" value="1111" desc="Reserved (NC)" />
-      </field>
-      <field name="MX_VN_ENUM" from="5" to="4" access="RW" resetVal="" desc="MUX select VN (Negative terminal input)">
-        <value name="OPAMP0_MX_VN_DEFAULT" value="00" desc="Default - Not Connected (NC)" />
-        <value name="OPAMP0_MX_VN_AG4" value="01" desc="MUX Selection AGL(4)" />
-        <value name="OPAMP0_MX_VN_AG6" value="10" desc="MUX Selection AGL(6)" />
-        <value name="OPAMP0_MX_VN_0x3" value="11" desc="Reserved (NC)" />
-      </field>
-    </register>
-    <register name="OPAMP__SW" address="0x40005B41" bitWidth="8" desc="Analog Buffer Routing Switch Register">
-      <field name="swfol" from="0" to="0" access="RW" resetVal="" desc="Switch Enable Follow" />
-      <field name="swinn" from="1" to="1" access="RW" resetVal="" desc="Switch Enable Negative Input" />
-      <field name="swinp" from="2" to="2" access="RW" resetVal="" desc="Switch Enable Positive Input" />
-    </register>
+  <block name="Phase" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <register name="Phase_CONTROL_REG" address="0x40006475" bitWidth="8" desc="" />
   </block>
-  <block name="TIA_Output" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="TIA_Input" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="mux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Status_Reg" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <register name="Status_Reg_STATUS_REG" address="0x4000646E" bitWidth="8" desc="" />
-    <register name="Status_Reg_MASK_REG" address="0x4000648E" bitWidth="8" desc="" />
-    <register name="Status_Reg_STATUS_AUX_CTL_REG" address="0x4000649E" bitWidth="8" desc="">
+    <register name="Status_Reg_STATUS_REG" address="0x40006465" bitWidth="8" desc="" />
+    <register name="Status_Reg_MASK_REG" address="0x40006485" bitWidth="8" desc="" />
+    <register name="Status_Reg_STATUS_AUX_CTL_REG" address="0x40006495" bitWidth="8" desc="">
       <field name="FIFO0" from="5" to="5" access="RW" resetVal="" desc="FIFO0 clear">
         <value name="ENABLED" value="1" desc="Enable counter" />
         <value name="DISABLED" value="0" desc="Disable counter" />
@@ -1206,7 +1255,7 @@
       </field>
     </register>
   </block>
-  <block name="Drive_Out" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="mux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="IDrive" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="cy_analog_noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -1325,25 +1374,13 @@
       <field name="data" from="7" to="0" access="RW" resetVal="" desc="8 DAC Data bits" />
     </register>
   </block>
-  <block name="Drive_Sense" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="vRef_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Drive_Sense" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Measure_Mux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TIA_Output" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="R_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Phase" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <register name="Phase_CONTROL_REG" address="0x4000647C" bitWidth="8" desc="" />
-  </block>
-  <block name="SOC_Go" BASE="0x0" SIZE="0x0" desc="" visible="true">
-    <register name="SOC_Go_CONTROL_REG" address="0x4000647E" bitWidth="8" desc="" />
-  </block>
-  <block name="TIA_Sense" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Sine_DMA" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD_SCLK" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="SOC_Logic" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="K_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="LCD_D_C" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="K_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Drive" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="ABuf" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="abuf_negInput_mux" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -1409,10 +1446,14 @@
       <field name="swinp" from="2" to="2" access="RW" resetVal="" desc="Switch Enable Positive Input" />
     </register>
   </block>
-  <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Drive_In" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
-  <block name="Quadrature" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="K_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="SOC_Logic" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LCD_SCLK" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="LCD_D_C" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="C_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="ADC_Clock_Ext" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="vRef_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
   <block name="Divider" BASE="0x0" SIZE="0x0" desc="" visible="true">
     <block name="vmIRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" />
     <block name="vmCompare" BASE="0x0" SIZE="0x0" desc="" visible="true" />
@@ -1471,4 +1512,13 @@
     <register name="Divider_PERIOD" address="0x40004F04" bitWidth="16" desc="TMRx.PER0 - Assigned Period" />
     <register name="Divider_COMPARE" address="0x40004F06" bitWidth="16" desc="TMRx.CNT_CMP0 - Assigned Compare Value" />
   </block>
+  <block name="Quadrature" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="K_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Drive_In" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="TIA_Sense" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="SOC_Go" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <register name="SOC_Go_CONTROL_REG" address="0x40006574" bitWidth="8" desc="" />
+  </block>
+  <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Sine_DMA" BASE="0x0" SIZE="0x0" desc="" visible="true" />
 </blockRegMap>

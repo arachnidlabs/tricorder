@@ -1027,6 +1027,71 @@
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
             </File>
+            <File>
+              <FileName>Power_SW_aliases.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW_aliases.h</FilePath>
+            </File>
+            <File>
+              <FileName>Power_SW.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW.c</FilePath>
+            </File>
+            <File>
+              <FileName>Power_SW.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL_aliases.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL_aliases.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL.c</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL.h</FilePath>
+            </File>
+            <File>
+              <FileName>Clock_5.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Clock_5.c</FilePath>
+            </File>
+            <File>
+              <FileName>Clock_5.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Clock_5.h</FilePath>
+            </File>
+            <File>
+              <FileName>timer_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\timer_clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer_clock.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\timer_clock.h</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1.h</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1_PM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1_PM.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
@@ -2055,6 +2120,71 @@
               <FileName>LCD_glcdfont.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
+            </File>
+            <File>
+              <FileName>Power_SW_aliases.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW_aliases.h</FilePath>
+            </File>
+            <File>
+              <FileName>Power_SW.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW.c</FilePath>
+            </File>
+            <File>
+              <FileName>Power_SW.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Power_SW.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL_aliases.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL_aliases.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL.c</FilePath>
+            </File>
+            <File>
+              <FileName>LED_BL.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LED_BL.h</FilePath>
+            </File>
+            <File>
+              <FileName>Clock_5.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Clock_5.c</FilePath>
+            </File>
+            <File>
+              <FileName>Clock_5.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Clock_5.h</FilePath>
+            </File>
+            <File>
+              <FileName>timer_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\timer_clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer_clock.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\timer_clock.h</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1.h</FilePath>
+            </File>
+            <File>
+              <FileName>PWM_1_PM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\PWM_1_PM.c</FilePath>
             </File>
           </Files>
         </Group>

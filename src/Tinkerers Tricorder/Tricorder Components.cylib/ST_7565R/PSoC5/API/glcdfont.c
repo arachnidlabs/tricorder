@@ -1,11 +1,8 @@
-#include <avr/io.h>
-#include <avr/pgmspace.h> 
-
 #include "glcdfont.h"
  
 // standard ascii 5x7 font
 
-unsigned char glcd_font[] PROGMEM = {
+unsigned char glcd_font[] = {
     0x3E, 0x2A, 0x36, 0x2A, 0x3E,   
 	0x3E, 0x5B, 0x4F, 0x5B, 0x3E, 	
 	0x3E, 0x6B, 0x4F, 0x6B, 0x3E, 	

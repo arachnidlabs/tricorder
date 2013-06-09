@@ -43,7 +43,7 @@
 uint8 `$INSTANCE_NAME`_initVar = 0;
 uint8 transmit_dma, buffer_td, interrupt_td, do_nothing;
 `$INSTANCE_NAME`_buffer *current_buffer = NULL;
-uint8 page = 0, column = 0;
+uint8 page = 0, column = `$INSTANCE_NAME`_START_COLUMN;
 
 void set_state(uint8 state) {
     uint8 current_state = `$INSTANCE_NAME``[LCD_Control]`Read();
@@ -78,12 +78,12 @@ void `$INSTANCE_NAME`_Enable(void) {
 
     // Default display settings
     `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_SET_START_LINE | 0);
-    `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_ADC_SELECT | 1); // ADC reverse
-    `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_COMMON_SELECT | 0); // Normal COM0-COM63
+    `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_ADC_SELECT | 0); // ADC normal
+    `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_COMMON_SELECT | 8); // Reverse COM63-COM0
     `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_DISPLAY_REVERSE | 0); // Normal
     `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_SET_BIAS | 0); // 1/9 bias
     `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_POWER_CONTROL | 0x7); // Booster, regulator, follower on
-    `$INSTANCE_NAME`_SendLongCommand(`$INSTANCE_NAME`_SET_BOOSTER_RATIO | 0x4); // 4x booster
+    `$INSTANCE_NAME`_SendLongCommand(`$INSTANCE_NAME`_SET_BOOSTER_RATIO | 0x0); // 4x booster
     `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_V0_REGULATOR_RATIO | 0x7); // Regulator resistor ratio
     `$INSTANCE_NAME`_SendLongCommand(`$INSTANCE_NAME`_SET_VOLUME | 0x16); // Set contrast
     `$INSTANCE_NAME`_SendLongCommand(`$INSTANCE_NAME`_SET_STATIC_INDICATOR | 0); // No indicator
@@ -105,7 +105,7 @@ void _PutChar(char c) {
     uint8 i;
     
     if(column + 6 >= `$INSTANCE_NAME`_VISIBLE_COLUMNS) {
-        column = 0;
+        column = `$INSTANCE_NAME`_START_COLUMN;
         page = (page + 1) % (`$INSTANCE_NAME`_ROWS / 8);
     }
     
@@ -128,7 +128,7 @@ void _PutChar(char c) {
     
     for(i = start_page; i < end_page; i++) {
         // Set page and column
-        `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_SET_PAGE | (start_page & 0xF));
+        `$INSTANCE_NAME`_SendCommand(`$INSTANCE_NAME`_SET_PAGE | (i & 0xF));
         `$INSTANCE_NAME`_SendLongCommand(`$INSTANCE_NAME`_SET_COLUMN | 0);
 
         // Switch to data mode
@@ -162,11 +162,11 @@ void `$INSTANCE_NAME`_PutChar(char c) {
 
 void `$INSTANCE_NAME`_Position(uint8 r, uint8 c) {
     page = r;
-    column = c;
+    column = c + `$INSTANCE_NAME`_START_COLUMN;
 }
 
 void `$INSTANCE_NAME`_ClearDisplay() {
-    memset(current_buffer->data, 0, sizeof(`$INSTANCE_NAME`_buffer));
+    memset(current_buffer->data, 0, `$INSTANCE_NAME`_BUFFER_SIZE);
     `$INSTANCE_NAME`_Update(current_buffer, 0, 8);
 }
 

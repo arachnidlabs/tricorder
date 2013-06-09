@@ -14,6 +14,7 @@
 void main()
 {
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    BoostConv_Start();
     CyBtldr_Start();
 
     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */

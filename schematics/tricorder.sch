@@ -7281,15 +7281,15 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <parts>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="22"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="C8" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1u"/>
+<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1u"/>
+<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="C9" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1u"/>
 <part name="U3" library="nickparts" deviceset="M05X2-0.05-SMD" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
@@ -7297,8 +7297,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="Y1" library="nickparts" deviceset="XRCGB_XTAL" device="" value=""/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="6p"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="6p"/>
-<part name="C15" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="C14" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
+<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1u"/>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
@@ -7401,9 +7401,9 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <part name="U$15" library="ea-dogm" deviceset="EAWF100-04S" device=""/>
 <part name="U$4" library="nickparts" deviceset="BNC" device=""/>
 <part name="U$11" library="nickparts" deviceset="BNC" device=""/>
-<part name="C33" library="resistor" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="C34" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
-<part name="C35" library="resistor" deviceset="C-EU" device="C0603K" value="1u"/>
+<part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1u"/>
+<part name="C34" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
+<part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1u"/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="U$16" library="nickparts" deviceset="CAT4003B" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="V+" device=""/>
@@ -7438,15 +7438,15 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <instances>
 <instance part="R1" gate="G$1" x="248.92" y="144.78"/>
 <instance part="R2" gate="G$1" x="243.84" y="139.7"/>
-<instance part="C2" gate="G$1" x="111.76" y="241.3"/>
-<instance part="C10" gate="G$1" x="172.72" y="165.1" rot="MR0"/>
-<instance part="C11" gate="G$1" x="185.42" y="165.1" rot="MR0"/>
-<instance part="C8" gate="G$1" x="190.5" y="223.52"/>
-<instance part="C1" gate="G$1" x="101.6" y="246.38"/>
+<instance part="C2" gate="G$1" x="111.76" y="238.76"/>
+<instance part="C10" gate="G$1" x="172.72" y="162.56" rot="MR0"/>
+<instance part="C11" gate="G$1" x="185.42" y="162.56" rot="MR0"/>
+<instance part="C8" gate="G$1" x="190.5" y="220.98"/>
+<instance part="C1" gate="G$1" x="101.6" y="241.3"/>
 <instance part="C6" gate="G$1" x="71.12" y="231.14"/>
 <instance part="C13" gate="G$1" x="78.74" y="106.68"/>
 <instance part="C12" gate="G$1" x="147.32" y="111.76" rot="MR0"/>
-<instance part="C9" gate="G$1" x="195.58" y="195.58" rot="MR0"/>
+<instance part="C9" gate="G$1" x="195.58" y="193.04" rot="MR0"/>
 <instance part="U3" gate="G$1" x="246.38" y="233.68"/>
 <instance part="GND8" gate="1" x="236.22" y="226.06"/>
 <instance part="C17" gate="G$1" x="228.6" y="236.22"/>
@@ -7454,8 +7454,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <instance part="Y1" gate="G$1" x="121.92" y="96.52"/>
 <instance part="C4" gate="G$1" x="124.46" y="91.44"/>
 <instance part="C5" gate="G$1" x="119.38" y="91.44"/>
-<instance part="C15" gate="G$1" x="111.76" y="101.6"/>
-<instance part="C14" gate="G$1" x="106.68" y="101.6"/>
+<instance part="C15" gate="G$1" x="111.76" y="99.06"/>
+<instance part="C14" gate="G$1" x="106.68" y="99.06"/>
 <instance part="AGND2" gate="VR1" x="190.5" y="213.36"/>
 <instance part="AGND3" gate="VR1" x="177.8" y="157.48" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="71.12" y="220.98"/>
@@ -7562,9 +7562,9 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <instance part="U$15" gate="G$1" x="160.02" y="33.02"/>
 <instance part="U$4" gate="G$1" x="55.88" y="55.88" rot="R90"/>
 <instance part="U$11" gate="G$1" x="55.88" y="12.7" rot="R90"/>
-<instance part="C33" gate="G$1" x="167.64" y="165.1" rot="MR0"/>
-<instance part="C34" gate="G$1" x="116.84" y="101.6"/>
-<instance part="C35" gate="G$1" x="119.38" y="231.14"/>
+<instance part="C33" gate="G$1" x="167.64" y="162.56" rot="MR0"/>
+<instance part="C34" gate="G$1" x="116.84" y="99.06"/>
+<instance part="C35" gate="G$1" x="119.38" y="228.6"/>
 <instance part="AGND8" gate="VR1" x="119.38" y="223.52"/>
 <instance part="U$16" gate="G$1" x="363.22" y="121.92" rot="R90"/>
 <instance part="SUPPLY16" gate="1" x="360.68" y="109.22"/>
@@ -7837,8 +7837,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <net name="AGND" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="215.9" x2="190.5" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
+<wire x1="190.5" y1="218.44" x2="190.5" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -7901,6 +7901,7 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="DGND"/>
+<wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VSSD_3"/>
@@ -8051,16 +8052,17 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 <pinref part="U2" gate="G$1" pin="VDDD_2"/>
 <wire x1="109.22" y1="220.98" x2="109.22" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="228.6" x2="106.68" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="228.6" x2="106.68" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="246.38" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="228.6" x2="106.68" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="243.84" x2="111.76" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="246.38" x2="111.76" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="VCC6" gate="G$1" pin="VCCIO"/>
-<junction x="111.76" y="246.38"/>
+<junction x="111.76" y="243.84"/>
+<wire x1="111.76" y1="243.84" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="VCC8" gate="G$1" pin="VCCIO"/>
+<wire x1="101.6" y1="248.92" x2="101.6" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
@@ -8092,8 +8094,8 @@ Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="228.6" x2="190.5" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="190.5" y1="226.06" x2="190.5" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$3" pin="VCC"/>

@@ -567,6 +567,8 @@ void main()
     }
 }
 
+LCD_buffer lcd_buf;
+
 void Init_Hardware(void)
 {
 	CYGlobalIntEnable
@@ -593,8 +595,11 @@ void Init_Hardware(void)
 	Clipping_Sense_Start();
 	
 	LCD_Start();
+    LCD_Update(&lcd_buf, 0, 0); // Give the LCD a buffer to use.
 	LCD_ClearDisplay(); 
 	
+    PWM_1_Start();
+    
 	return;
 }
 
