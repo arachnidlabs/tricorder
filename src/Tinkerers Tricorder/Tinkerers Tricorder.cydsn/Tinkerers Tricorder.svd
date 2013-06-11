@@ -4036,7 +4036,7 @@
     <peripheral>
       <name>PWM_1</name>
       <description>No description available</description>
-      <baseAddress>0x40006427</baseAddress>
+      <baseAddress>0x40006525</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x71</size>
@@ -4217,6 +4217,767 @@
                 <enumeratedValue>
                   <name>E_CNT_START1</name>
                   <description>Enable counter</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>BoostConv</name>
+      <description>No description available</description>
+      <baseAddress>0x40004320</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x7</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>BoostConv_BOOST_CR0</name>
+          <description>Boost Control Register 0</description>
+          <addressOffset>0x0</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>VSEL</name>
+              <description>Boost voltage selection</description>
+              <lsb>0</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>VSEL_OFF</name>
+                  <description>Off (0V)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_1P80V</name>
+                  <description>1.80V (Default when {Vint1,Vint0} == 2'b01)</description>
+                  <value>3</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_1P90V</name>
+                  <description>1.90V</description>
+                  <value>4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P00V</name>
+                  <description>2.00V</description>
+                  <value>5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P10V</name>
+                  <description>2.10V</description>
+                  <value>6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P20V</name>
+                  <description>2.20V</description>
+                  <value>7</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P30V</name>
+                  <description>2.30V</description>
+                  <value>8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P40V</name>
+                  <description>2.40V</description>
+                  <value>9</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P50V</name>
+                  <description>2.50V</description>
+                  <value>10</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P60V</name>
+                  <description>2.60V</description>
+                  <value>11</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P70V</name>
+                  <description>2.70V (Default when {Vint1,Vint0} == 2'b10)</description>
+                  <value>12</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P80V</name>
+                  <description>2.80V</description>
+                  <value>13</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_2P90V</name>
+                  <description>2.90V</description>
+                  <value>14</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P00V</name>
+                  <description>3.00V</description>
+                  <value>15</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P10V</name>
+                  <description>3.10V</description>
+                  <value>16</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P20V</name>
+                  <description>3.20V</description>
+                  <value>17</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P30V</name>
+                  <description>3.30V (Default when {Vint1,Vint0} == 2'b11)</description>
+                  <value>18</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P40V</name>
+                  <description>3.40V</description>
+                  <value>19</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P50V</name>
+                  <description>3.50V</description>
+                  <value>20</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_3P60V</name>
+                  <description>3.60V</description>
+                  <value>21</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_4P00V</name>
+                  <description>4.00V - Schottky diode req'd</description>
+                  <value>22</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_4P25V</name>
+                  <description>4.25V - Schottky diode req'd</description>
+                  <value>23</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_4P50V</name>
+                  <description>4.50V - Schottky diode req'd</description>
+                  <value>24</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_4P75V</name>
+                  <description>4.75V - Schottky diode req'd</description>
+                  <value>25</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_5P00V</name>
+                  <description>5.00V - Schottky diode req'd</description>
+                  <value>26</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>VSEL_5P25V</name>
+                  <description>5.25V - Schottky diode req'd</description>
+                  <value>27</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>MODE</name>
+              <description>Boost mode select</description>
+              <lsb>5</lsb>
+              <msb>6</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MODE_STANDBY</name>
+                  <description>Standby mode</description>
+                  <value>1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MODE_ACTIVE</name>
+                  <description>Active mode</description>
+                  <value>3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>THUMP</name>
+              <description>Generate a 1us pulse on 0-&gt;1 transition</description>
+              <lsb>7</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Doesn_t_generate_a_1us_pulse</name>
+                  <description>Doesn't generate a 1us pulse on 0-&gt;1 transition</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Generate_a_1us_pulse</name>
+                  <description>Generate a 1us pulse on 0-&gt;1 transition</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_CR1</name>
+          <description>Boost Control Register 1</description>
+          <addressOffset>0x1</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>CLK</name>
+              <description>Boost clock frequency</description>
+              <lsb>0</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>CLK_2MHZ</name>
+                  <description>2.0 MHz</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CLK_500KHZ</name>
+                  <description>0.4 MHz</description>
+                  <value>1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CLK_125KHZ</name>
+                  <description>0.1 MHz</description>
+                  <value>2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>CLK_EXT</name>
+                  <description>External</description>
+                  <value>3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>EXTMODE</name>
+              <description>When set, enables mode control from xmode[1:0] instead of control register 1</description>
+              <lsb>2</lsb>
+              <msb>2</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Disables_mode_control_from_xmode</name>
+                  <description>Disables mode control from xmode[1:0] instead of control register 1</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Enables_mode_control_from_xmode</name>
+                  <description>Enables mode control from xmode[1:0] instead of control register 1</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BOOSTEN</name>
+              <description>When set, enables boost operation</description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Disables_boost_operation</name>
+                  <description>Disables boost operation</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Enables_boost_operation</name>
+                  <description>Enables boost operation</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>TST</name>
+              <description>Test mode for IV char of drive transistors. Setting tst[0] also inhibits                            discontinuous operation</description>
+              <lsb>4</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>TST_OFF</name>
+                  <description>Test mode off</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TST_WE_NMOS</name>
+                  <description>NMOS on (weak)</description>
+                  <value>4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TST_ST_NMOS</name>
+                  <description>NMOS on (strong)</description>
+                  <value>5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TST_WE_PMOS</name>
+                  <description>PMOS on (weak)</description>
+                  <value>6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>TST_ST_PMOS</name>
+                  <description>PMOS on (strong)</description>
+                  <value>7</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_CR2</name>
+          <description>Boost Control Register 2</description>
+          <addressOffset>0x2</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>ENATM</name>
+              <description>When set, enables automatic standby regulator</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Disables_automatic_standby_regulator</name>
+                  <description>Disables automatic standby regulator</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Enables_automatic_standby_regulator</name>
+                  <description>Enables automatic standby regulator</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>EQOFF</name>
+              <description>When set, disables auto battery connect to output when Vin=Vsel</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Enables_auto_battery_connect_to_output_when_Vin_Vsel</name>
+                  <description>Enables auto battery connect to output when Vin=Vsel</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Disables_auto_battery_connect_to_output_when_Vin_Vsel</name>
+                  <description>Disables auto battery connect to output when Vin=Vsel</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>LIMOFF</name>
+              <description>When set, turns off skip cycle current limiter</description>
+              <lsb>2</lsb>
+              <msb>2</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Turns_on_skip_cycle_current_limiter</name>
+                  <description>Turns on skip cycle current limiter</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Turns_off_skip_cycle_current_limiter</name>
+                  <description>Turns off skip cycle current limiter</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>EREFSEL</name>
+              <description>When set, selects external reference</description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>BOOST_EREFSEL_INTERNAL</name>
+                  <description>Select internal reference</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>BOOST_EREFSEL_EXTERNAL</name>
+                  <description>Select external 800mv precision reference (vref_800mv)</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BUCKING</name>
+              <description>When set, converter is bucking. This is always 0 for boost only converters.</description>
+              <lsb>4</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Boost_only_converters</name>
+                  <description>Boost only converters</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Converter_is_bucking</name>
+                  <description>Converter is bucking</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>EQUAL</name>
+              <description>When set, converter is bypassed. Vin connected to Vout</description>
+              <lsb>5</lsb>
+              <msb>5</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Converter_boosting</name>
+                  <description>Converter boosting</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Converter_is_bypassed</name>
+                  <description>Converter is bypassed (Vin=Vsel). Vin connected to Vout</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>BUSTING</name>
+              <description>When set, converter is boosting</description>
+              <lsb>6</lsb>
+              <msb>6</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Converter_bypassed</name>
+                  <description>Converter bypassed</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Converter_is_boosting</name>
+                  <description>Converter is boosting</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>DISC</name>
+              <description>When set, boost converter is operating in discontinuous mode</description>
+              <lsb>7</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Boost_converter_isn_t_operating_in_discontinuous_mode</name>
+                  <description>Boost converter isn't operating in discontinuous mode</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Boost_converter_is_operating_in_discontinuous_mode</name>
+                  <description>Boost converter is operating in discontinuous mode</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_CR3</name>
+          <description>Boost Control Register 3</description>
+          <addressOffset>0x3</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>PWM</name>
+              <description>PWM value should not be written during normal operation</description>
+              <lsb>0</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>pwm_7_0_</name>
+                  <description>Boost PWM value (should not be written during normal operation)</description>
+                  <value>0</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_SR</name>
+          <description>Boost Status Register</description>
+          <addressOffset>0x4</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>UV</name>
+              <description>Output is above undervoltage limit when 1, below limit when 0</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Output_is_below_undervoltage</name>
+                  <description>Output is below undervoltage limit</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Output_is_above_undervoltage</name>
+                  <description>Output is above undervoltage limit</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>VLO</name>
+              <description>Output is above vlow limit when 1, below limit when 0</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Output_is_below_vlow</name>
+                  <description>Output is below vlow limit</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Output_is_above_vlow</name>
+                  <description>Output is above vlow limit</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>VNOM</name>
+              <description>Output is above nominal when 1, below nominal when 0</description>
+              <lsb>2</lsb>
+              <msb>2</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Output_is_below_nominal</name>
+                  <description>Output is below nominal</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Output_is_above_nominal</name>
+                  <description>Output is above nominal</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>VHI</name>
+              <description>Output is above vhigh limit when 1, below limit when 0</description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Output_is_below_vhigh</name>
+                  <description>Output is below vhigh limit</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Output_is_above_vhigh</name>
+                  <description>Output is above vhigh limit</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>OV</name>
+              <description>Output above overvoltage limit when 1, below limit when 0</description>
+              <lsb>4</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Output_is_below_overvoltage</name>
+                  <description>Output is below overvoltage limit</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Output_is_above_overvoltage</name>
+                  <description>Output is above overvoltage limit</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>NOBAT</name>
+              <description>When set, battery input is grounded (no battery present)</description>
+              <lsb>5</lsb>
+              <msb>5</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Battery_input_is_not_grounded</name>
+                  <description>Battery input is not grounded</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Battery_input_is_grounded</name>
+                  <description>Battery input is grounded (no battery present)</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>START</name>
+              <description>When set, converter is in startup mode</description>
+              <lsb>6</lsb>
+              <msb>6</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Converter_is_not_in_startup_mode</name>
+                  <description>Converter is not in startup mode</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Converter_is_in_startup_mode</name>
+                  <description>Converter is in startup mode</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>READY</name>
+              <description>When set, internal circuits have been initialized</description>
+              <lsb>7</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Internal_circuits_not_initialized</name>
+                  <description>Internal circuits have not been initialized</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Internal_circuits_initialized</name>
+                  <description>Internal circuits have been initialized</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_CR4</name>
+          <description>Boost Control Register 4</description>
+          <addressOffset>0x5</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>BOOST_IE</name>
+              <description>When set, a boost undervoltage condition is propagated to the interrupt controller via the PM                         interrupt line. When clear, the interrupt condition is masked.</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>The_interrupt_condition_is_masked</name>
+                  <description>The interrupt condition is masked</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Boost_undervoltage_condition_is_propagated_to_the_interrupt_controller_via_the_PM_________________________interrupt_line</name>
+                  <description>Boost undervoltage condition is propagated to the interrupt controller via the PM                         interrupt line</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>CLK_ECO</name>
+              <description>When set, 32k crystal oscillator is connected to boost external clock instead of 32k ILO.                          To prevent collision, user needs to make sure that clk_ilo source is turned off. </description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>32k_crystal_oscillator_not_connected</name>
+                  <description>32k crystal oscillator isn't connected to boost external clock instead of 32k ILO</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32k_crystal_oscillator_is_connected</name>
+                  <description>32k crystal oscillator is connected to boost external clock instead of 32k ILO</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>CLK_ILO</name>
+              <description>When set, 32k ILO is connected to boost external clock instead of 32k crystal oscillator.                           To prevent collision, user needs to make sure that crystal oscillator source is turned off</description>
+              <lsb>2</lsb>
+              <msb>2</msb>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>32k_ILO_not_connected</name>
+                  <description>32k ILO isn't connected to boost external clock instead of 32k crystal oscillator</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32k_ILO_is_connected</name>
+                  <description>32k ILO is connected to boost external clock instead of 32k crystal oscillator</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>BoostConv_BOOST_SR2</name>
+          <description>Boost Status Register 2</description>
+          <addressOffset>0x6</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>BOOST_INT</name>
+              <description>When set, a boost undervoltage event has occured. The setting of limact_ie determines                            whether this interrupt condition is masked or propagated to the interrupt controller.</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Boost_undervoltage_event_has_not_occured</name>
+                  <description>Boost undervoltage event has not occured</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Boost_undervoltage_event_has_occured</name>
+                  <description>Boost undervoltage event has occured</description>
                   <value>1</value>
                 </enumeratedValue>
               </enumeratedValues>
@@ -5719,7 +6480,7 @@
     <peripheral>
       <name>Phase</name>
       <description>No description available</description>
-      <baseAddress>0x40006475</baseAddress>
+      <baseAddress>0x40006574</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x1</size>
@@ -5740,7 +6501,7 @@
     <peripheral>
       <name>Status_Reg</name>
       <description>No description available</description>
-      <baseAddress>0x40006465</baseAddress>
+      <baseAddress>0x40006564</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x31</size>
@@ -7073,7 +7834,7 @@
     <peripheral>
       <name>SOC_Go</name>
       <description>No description available</description>
-      <baseAddress>0x40006574</baseAddress>
+      <baseAddress>0x40006475</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x1</size>

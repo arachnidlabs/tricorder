@@ -348,6 +348,116 @@
               <FilePath>.\Generated_Source\PSoC5\cyfitter.h</FilePath>
             </File>
             <File>
+              <FileName>cm3gcc.ld</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cm3gcc.ld</FilePath>
+            </File>
+            <File>
+              <FileName>Cm3RealView.scat</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Cm3RealView.scat</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3_psoc5.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3_psoc5.h</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3.c</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyBootAsmGnu.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyBootAsmGnu.s</FilePath>
+            </File>
+            <File>
+              <FileName>CyDmac.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyDmac.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyDmac.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyDmac.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyFlash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyFlash.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyFlash.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyFlash.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyLib.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyLib.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyLib.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyLib.h</FilePath>
+            </File>
+            <File>
+              <FileName>cypins.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cypins.h</FilePath>
+            </File>
+            <File>
+              <FileName>cyPm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyPm.c</FilePath>
+            </File>
+            <File>
+              <FileName>cyPm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyPm.h</FilePath>
+            </File>
+            <File>
+              <FileName>CySpc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CySpc.c</FilePath>
+            </File>
+            <File>
+              <FileName>CySpc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CySpc.h</FilePath>
+            </File>
+            <File>
+              <FileName>cytypes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cytypes.h</FilePath>
+            </File>
+            <File>
+              <FileName>cyutils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyutils.c</FilePath>
+            </File>
+            <File>
+              <FileName>project.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\project.h</FilePath>
+            </File>
+            <File>
+              <FileName>BoostConv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\BoostConv.c</FilePath>
+            </File>
+            <File>
+              <FileName>BoostConv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\BoostConv.h</FilePath>
+            </File>
+            <File>
               <FileName>IDrive.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Generated_Source\PSoC5\IDrive.c</FilePath>
@@ -473,6 +583,26 @@
               <FilePath>.\Generated_Source\PSoC5\SOC_Go.h</FilePath>
             </File>
             <File>
+              <FileName>LCD_LCD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_glcdfont.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_glcdfont.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
+            </File>
+            <File>
               <FileName>ADC_Clock_Ext.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Generated_Source\PSoC5\ADC_Clock_Ext.c</FilePath>
@@ -526,106 +656,6 @@
               <FileName>ADC_Ext_CP_Clk.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\ADC_Ext_CP_Clk.h</FilePath>
-            </File>
-            <File>
-              <FileName>cm3gcc.ld</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cm3gcc.ld</FilePath>
-            </File>
-            <File>
-              <FileName>Cm3RealView.scat</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\Cm3RealView.scat</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3_psoc5.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3_psoc5.h</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3.c</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyBootAsmGnu.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyBootAsmGnu.s</FilePath>
-            </File>
-            <File>
-              <FileName>CyDmac.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyDmac.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyDmac.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyDmac.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyFlash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyFlash.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyFlash.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyFlash.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyLib.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyLib.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyLib.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyLib.h</FilePath>
-            </File>
-            <File>
-              <FileName>cypins.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cypins.h</FilePath>
-            </File>
-            <File>
-              <FileName>cyPm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyPm.c</FilePath>
-            </File>
-            <File>
-              <FileName>cyPm.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyPm.h</FilePath>
-            </File>
-            <File>
-              <FileName>CySpc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CySpc.c</FilePath>
-            </File>
-            <File>
-              <FileName>CySpc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CySpc.h</FilePath>
-            </File>
-            <File>
-              <FileName>cytypes.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cytypes.h</FilePath>
-            </File>
-            <File>
-              <FileName>cyutils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyutils.c</FilePath>
-            </File>
-            <File>
-              <FileName>project.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\project.h</FilePath>
             </File>
             <File>
               <FileName>Drive_Sense_aliases.h</FileName>
@@ -703,6 +733,21 @@
               <FilePath>.\Generated_Source\PSoC5\drive_range.h</FilePath>
             </File>
             <File>
+              <FileName>ResistiveTouch_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>ResistiveTouch_1_PM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1_PM.c</FilePath>
+            </File>
+            <File>
+              <FileName>ResistiveTouch_1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.h</FilePath>
+            </File>
+            <File>
               <FileName>drive_freq_range_aliases.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\drive_freq_range_aliases.h</FilePath>
@@ -731,31 +776,6 @@
               <FileName>tia_range.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\tia_range.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_LCD.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_LCD.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1_PM.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1_PM.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.h</FilePath>
             </File>
             <File>
               <FileName>ResistiveTouch_1_AMux.c</FileName>
@@ -1016,16 +1036,6 @@
               <FileName>LCD_LCD_SPI_IntClock.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\LCD_LCD_SPI_IntClock.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_glcdfont.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.c</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_glcdfont.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
             </File>
             <File>
               <FileName>Power_SW_aliases.h</FileName>
@@ -1442,6 +1452,116 @@
               <FilePath>.\Generated_Source\PSoC5\cyfitter.h</FilePath>
             </File>
             <File>
+              <FileName>cm3gcc.ld</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cm3gcc.ld</FilePath>
+            </File>
+            <File>
+              <FileName>Cm3RealView.scat</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\Cm3RealView.scat</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3_psoc5.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3_psoc5.h</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3.c</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm3.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\core_cm3.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyBootAsmGnu.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyBootAsmGnu.s</FilePath>
+            </File>
+            <File>
+              <FileName>CyDmac.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyDmac.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyDmac.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyDmac.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyFlash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyFlash.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyFlash.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyFlash.h</FilePath>
+            </File>
+            <File>
+              <FileName>CyLib.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyLib.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyLib.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CyLib.h</FilePath>
+            </File>
+            <File>
+              <FileName>cypins.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cypins.h</FilePath>
+            </File>
+            <File>
+              <FileName>cyPm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyPm.c</FilePath>
+            </File>
+            <File>
+              <FileName>cyPm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyPm.h</FilePath>
+            </File>
+            <File>
+              <FileName>CySpc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CySpc.c</FilePath>
+            </File>
+            <File>
+              <FileName>CySpc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\CySpc.h</FilePath>
+            </File>
+            <File>
+              <FileName>cytypes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cytypes.h</FilePath>
+            </File>
+            <File>
+              <FileName>cyutils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\cyutils.c</FilePath>
+            </File>
+            <File>
+              <FileName>project.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\project.h</FilePath>
+            </File>
+            <File>
+              <FileName>BoostConv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\BoostConv.c</FilePath>
+            </File>
+            <File>
+              <FileName>BoostConv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\BoostConv.h</FilePath>
+            </File>
+            <File>
               <FileName>IDrive.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Generated_Source\PSoC5\IDrive.c</FilePath>
@@ -1567,6 +1687,26 @@
               <FilePath>.\Generated_Source\PSoC5\SOC_Go.h</FilePath>
             </File>
             <File>
+              <FileName>LCD_LCD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_glcdfont.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_glcdfont.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
+            </File>
+            <File>
               <FileName>ADC_Clock_Ext.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Generated_Source\PSoC5\ADC_Clock_Ext.c</FilePath>
@@ -1620,106 +1760,6 @@
               <FileName>ADC_Ext_CP_Clk.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\ADC_Ext_CP_Clk.h</FilePath>
-            </File>
-            <File>
-              <FileName>cm3gcc.ld</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cm3gcc.ld</FilePath>
-            </File>
-            <File>
-              <FileName>Cm3RealView.scat</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\Cm3RealView.scat</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3_psoc5.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3_psoc5.h</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3.c</FilePath>
-            </File>
-            <File>
-              <FileName>core_cm3.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\core_cm3.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyBootAsmGnu.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyBootAsmGnu.s</FilePath>
-            </File>
-            <File>
-              <FileName>CyDmac.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyDmac.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyDmac.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyDmac.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyFlash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyFlash.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyFlash.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyFlash.h</FilePath>
-            </File>
-            <File>
-              <FileName>CyLib.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyLib.c</FilePath>
-            </File>
-            <File>
-              <FileName>CyLib.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CyLib.h</FilePath>
-            </File>
-            <File>
-              <FileName>cypins.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cypins.h</FilePath>
-            </File>
-            <File>
-              <FileName>cyPm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyPm.c</FilePath>
-            </File>
-            <File>
-              <FileName>cyPm.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyPm.h</FilePath>
-            </File>
-            <File>
-              <FileName>CySpc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CySpc.c</FilePath>
-            </File>
-            <File>
-              <FileName>CySpc.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\CySpc.h</FilePath>
-            </File>
-            <File>
-              <FileName>cytypes.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cytypes.h</FilePath>
-            </File>
-            <File>
-              <FileName>cyutils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\cyutils.c</FilePath>
-            </File>
-            <File>
-              <FileName>project.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\project.h</FilePath>
             </File>
             <File>
               <FileName>Drive_Sense_aliases.h</FileName>
@@ -1797,6 +1837,21 @@
               <FilePath>.\Generated_Source\PSoC5\drive_range.h</FilePath>
             </File>
             <File>
+              <FileName>ResistiveTouch_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>ResistiveTouch_1_PM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1_PM.c</FilePath>
+            </File>
+            <File>
+              <FileName>ResistiveTouch_1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.h</FilePath>
+            </File>
+            <File>
               <FileName>drive_freq_range_aliases.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\drive_freq_range_aliases.h</FilePath>
@@ -1825,31 +1880,6 @@
               <FileName>tia_range.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\tia_range.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_LCD.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_LCD.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_LCD.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1_PM.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1_PM.c</FilePath>
-            </File>
-            <File>
-              <FileName>ResistiveTouch_1.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\ResistiveTouch_1.h</FilePath>
             </File>
             <File>
               <FileName>ResistiveTouch_1_AMux.c</FileName>
@@ -2110,16 +2140,6 @@
               <FileName>LCD_LCD_SPI_IntClock.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Generated_Source\PSoC5\LCD_LCD_SPI_IntClock.h</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_glcdfont.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.c</FilePath>
-            </File>
-            <File>
-              <FileName>LCD_glcdfont.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Generated_Source\PSoC5\LCD_glcdfont.h</FilePath>
             </File>
             <File>
               <FileName>Power_SW_aliases.h</FileName>

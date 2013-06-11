@@ -205,8 +205,8 @@ void main()
 	char scale_Mag; 
 	
 	Init_Hardware();
-	
-	// update the user on the status
+
+    // update the user on the status
 	sprintf(szBuffer,"Open circuit cal");
     
 	LCD_Position(0,0);
@@ -467,21 +467,21 @@ void main()
 			{
 				case SERIES:	
 					// equivalent series circuit
-					sprintf(szBuffer,"%3.2f%c%c    ", R, scale_R, 0xf4);
+					sprintf(szBuffer,"%3.2f%c%c        ", R, scale_R, 0xf4);
 					LCD_Position(0,0);
 					LCD_PrintString(szBuffer);
-							
-					sprintf(szBuffer,"%3.1f%c%c   ", C == 0 ? L : C , scale_X, X >= 0 ? 'H' : 'F');
+					
+					sprintf(szBuffer,"%3.1f%c%c       ", C == 0 ? L : C , scale_X, X >= 0 ? 'H' : 'F');
 					LCD_Position(0,9);
 					LCD_PrintString(szBuffer);
 					break;
 				case PARALLEL:
 					// equivalent series circuit
-					sprintf(szBuffer,"%3.2f%c%c     ", R, scale_R, 0xf4);
+					sprintf(szBuffer,"%3.2f%c%c         ", R, scale_R, 0xf4);
 					LCD_Position(0,0);
 					LCD_PrintString(szBuffer);
 							
-					sprintf(szBuffer,"%3.1f%c%c    ", C == 0 ? L : C , scale_X, X >= 0 ? 'H' : 'F');
+					sprintf(szBuffer,"%3.1f%c%c        ", C == 0 ? L : C , scale_X, X >= 0 ? 'H' : 'F');
 					LCD_Position(0,9);
 					LCD_PrintString(szBuffer);
 					break;
@@ -573,7 +573,9 @@ void Init_Hardware(void)
 {
 	CYGlobalIntEnable
 	
-	Phase_Write(0);
+    BoostConv_Start();
+
+    Phase_Write(0);
 //	Button_Freq_Write(1);
 //	Button_Mode_Write(1);
 	SOC_Go_Write(0);

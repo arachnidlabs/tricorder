@@ -136,7 +136,7 @@ void _PutChar(char c) {
         
         // Send the page of data
         for(j = 0; j < `$INSTANCE_NAME`_COLUMNS; j++)
-            `$INSTANCE_NAME``[LCD_SPI]`WriteTxData(current_buffer->data[page * `$INSTANCE_NAME`_COLUMNS + j]);
+            `$INSTANCE_NAME``[LCD_SPI]`WriteTxData(current_buffer->data[i * `$INSTANCE_NAME`_COLUMNS + j]);
     }
     
     return ret;
@@ -162,7 +162,7 @@ void `$INSTANCE_NAME`_PutChar(char c) {
 
 void `$INSTANCE_NAME`_Position(uint8 r, uint8 c) {
     page = r;
-    column = c + `$INSTANCE_NAME`_START_COLUMN;
+    column = (c * 6) + `$INSTANCE_NAME`_START_COLUMN;
 }
 
 void `$INSTANCE_NAME`_ClearDisplay() {
