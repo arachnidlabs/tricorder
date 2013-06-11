@@ -608,6 +608,39 @@
 <VisibleNodeIds>
 <v>Tinkerers Tricorder</v>
 <v>Tinkerers Tricorder\Bootloader</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\BoostConv.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\Cm3Start.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\core_cm3.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\CyDmac.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\CyFlash.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\CyLib.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\cyPm.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\CySpc.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\cyutils.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\Freebooter.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\main.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_audio.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_boot.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_cdc.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_cls.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_descr.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_Dm.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_Dp.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_drv.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_episr.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_hid.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_midi.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_pm.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_std.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Listing Files\USBFS_vnd.lst</v>
+<v>Tinkerers Tricorder\Bootloader\CortexM3\ARM_GCC_441\Debug\Bootloader.elf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
